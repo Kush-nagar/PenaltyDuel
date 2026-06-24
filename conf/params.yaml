@@ -1,0 +1,8 @@
+model_version: "v0.2-step7"
+step7:
+  train_fraction: 0.8
+  calibration_fraction: 0.25
+  calibration_method: "sigmoid"
+  combo_C: 1.0
+  cv_n_folds: 5
+  cv_test_fraction: 0.5

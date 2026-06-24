@@ -1,0 +1,214 @@
+{
+  "model_version": "v0.2-step7",
+  "cv": {
+    "headline_model": "combo_calibrated",
+    "n_folds": 5,
+    "cv_summary": {
+      "global": {
+        "log_loss_mean": 0.594261956032636,
+        "log_loss_std": 0.04206181811913244,
+        "brier_mean": 0.20200431954888615,
+        "brier_std": 0.019141432611532515
+      },
+      "keeper_shrunk": {
+        "log_loss_mean": 0.5868293528898567,
+        "log_loss_std": 0.030678760823801554,
+        "brier_mean": 0.19885421275483833,
+        "brier_std": 0.014210099690919594
+      },
+      "composed": {
+        "log_loss_mean": 0.5931808852172703,
+        "log_loss_std": 0.0410162934688478,
+        "brier_mean": 0.20159895046893447,
+        "brier_std": 0.01874657871954535
+      },
+      "combo": {
+        "log_loss_mean": 0.5844068519971899,
+        "log_loss_std": 0.03831433829818219,
+        "brier_mean": 0.19819137270821413,
+        "brier_std": 0.01725866457770705
+      },
+      "blend": {
+        "log_loss_mean": 0.5941673749185239,
+        "log_loss_std": 0.03858558716512433,
+        "brier_mean": 0.202316397994771,
+        "brier_std": 0.0172639718767494
+      },
+      "combo_calibrated": {
+        "log_loss_mean": 0.5844068519971899,
+        "log_loss_std": 0.03831433829818219,
+        "brier_mean": 0.19819137270821413,
+        "brier_std": 0.01725866457770705
+      }
+    },
+    "per_fold": {
+      "log_loss": {
+        "global": [
+          0.6186487824782382,
+          0.5696975202203928,
+          0.562353954770383,
+          0.5550101406444022,
+          0.6655993820497641
+        ],
+        "keeper_shrunk": [
+          0.6167252934138296,
+          0.5600243628565433,
+          0.5582828929084646,
+          0.5682939886390678,
+          0.6308202266313784
+        ],
+        "composed": [
+          0.6161375985305504,
+          0.5690740472882976,
+          0.5620960903267562,
+          0.5553644880836269,
+          0.6632322018571207
+        ],
+        "combo": [
+          0.6107118775122771,
+          0.5485285765075206,
+          0.5491214044055173,
+          0.5674057341887285,
+          0.6462666673719055
+        ],
+        "blend": [
+          0.6074715722156983,
+          0.5558003508280216,
+          0.5592306931119243,
+          0.5869202150554877,
+          0.6614140433814873
+        ],
+        "combo_calibrated": [
+          0.6107118775122771,
+          0.5485285765075206,
+          0.5491214044055173,
+          0.5674057341887285,
+          0.6462666673719055
+        ]
+      },
+      "brier": {
+        "global": [
+          0.21295052270803663,
+          0.19085556685671592,
+          0.187507087037726,
+          0.18415851038859568,
+          0.23454991075335635
+        ],
+        "keeper_shrunk": [
+          0.21249931336039685,
+          0.1867281601212846,
+          0.1858691506111193,
+          0.18972017299620375,
+          0.21945426668518703
+        ],
+        "composed": [
+          0.2120177024411022,
+          0.19061955387977378,
+          0.18741176020247757,
+          0.1842944578951262,
+          0.23365127792619247
+        ],
+        "combo": [
+          0.2098002302109167,
+          0.18266048753629274,
+          0.18268172554065182,
+          0.18941411142000505,
+          0.22640030883320422
+        ],
+        "blend": [
+          0.20887505711342189,
+          0.18493289926889753,
+          0.18750372900750567,
+          0.19785849894962318,
+          0.2324118056344067
+        ],
+        "combo_calibrated": [
+          0.2098002302109167,
+          0.18266048753629274,
+          0.18268172554065182,
+          0.18941411142000505,
+          0.22640030883320422
+        ]
+      }
+    },
+    "gate": {
+      "beats_keeper_shrunk": true,
+      "log_loss_improvement": 0.0024225008926668234,
+      "brier_improvement": 0.0006628400466242024,
+      "brier_skill_score": 0.0033332964760540706,
+      "folds_won": 4,
+      "folds_total": 5
+    }
+  },
+  "reliability": {
+    "calibration_method": "none",
+    "ece_headline": 0.022554400738491874,
+    "ece_keeper": 0.013827981334607213,
+    "test_rows": 297,
+    "blend_weights": {
+      "combo": 1.48,
+      "composed": 0.0615,
+      "keeper": 0.5068
+    }
+  },
+  "lgbm_cross_check": {
+    "split": {
+      "train_rows": 885,
+      "calibration_rows": 295,
+      "test_rows": 297,
+      "cutoff": "2024-01-22",
+      "calibration_method": "sigmoid"
+    },
+    "model": {
+      "backend": "lightgbm",
+      "features": [
+        "pred_keeper_shrunk",
+        "pred_shooter_shrunk",
+        "shooter_conv_rate_shrunk",
+        "shooter_n_pens_before",
+        "keeper_save_rate_shrunk",
+        "keeper_n_faced_before",
+        "shooter_zone_entropy",
+        "shooter_zone_prob_low_left",
+        "shooter_zone_prob_low_center",
+        "shooter_zone_prob_low_right",
+        "shooter_zone_prob_high_left",
+        "shooter_zone_prob_high_center",
+        "shooter_zone_prob_high_right",
+        "expected_guess_correct",
+        "is_shootout",
+        "shootout_kick_index"
+      ],
+      "best_iteration": 69
+    },
+    "metrics": {
+      "keeper_shrunk_baseline": {
+        "log_loss": 0.5985070233416762,
+        "brier": 0.20410881169308365,
+        "brier_skill_score": 0.0,
+        "roc_auc": 0.5777504105090312,
+        "pr_auc": 0.7423603153984331,
+        "ece": 0.015177452660053232,
+        "accuracy_footnote": 0.7070707070707071
+      },
+      "direct": {
+        "log_loss": 0.6058694437317801,
+        "brier": 0.2079235257360203,
+        "brier_skill_score": -0.01868960977869394,
+        "roc_auc": 0.5695949644225506,
+        "pr_auc": 0.7673382093393754,
+        "ece": 0.06101717245114491,
+        "accuracy_footnote": 0.7070707070707071
+      },
+      "direct_calibrated": {
+        "log_loss": 0.6080372264720392,
+        "brier": 0.20841572245726467,
+        "brier_skill_score": -0.021101052563361478,
+        "roc_auc": 0.5695949644225506,
+        "pr_auc": 0.7673382093393754,
+        "ece": 0.03818205107078754,
+        "accuracy_footnote": 0.7070707070707071
+      }
+    }
+  }
+}
