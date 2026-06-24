@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1 | iex)",
+      "PowerShell($content = irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1 -ErrorAction Stop; if \\($content\\) { Write-Output \"Content length: $\\($content.Length\\)\"; Write-Output $content } else { Write-Output \"Empty response\" })",
+      "PowerShell(node --version)",
+      "PowerShell($script = irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1; Invoke-Expression $script)",
+      "PowerShell($tmp = \"$env:TEMP\\\\caveman_install.ps1\"; irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1 -OutFile $tmp; & pwsh -File $tmp)",
+      "PowerShell($tmp = \"$env:TEMP\\\\caveman_install.ps1\"; irm https://raw.githubusercontent.com/JuliusBrussee/caveman/main/install.ps1 -OutFile $tmp; & powershell -File $tmp)",
+      "PowerShell(cd \"D:\\\\Coding\\\\Soccer\"; $env:PYTHONIOENCODING=\"utf-8\"; python pipelines/build_dataset.py 2>&1)",
+      "PowerShell(Get-Content *)"
+    ]
+  }
+}

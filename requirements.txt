@@ -1,0 +1,5 @@
+pandas>=2.0
+pyarrow>=14.0
+unidecode>=1.3
+tqdm>=4.66
+numpy>=1.24

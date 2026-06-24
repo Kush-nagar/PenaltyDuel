@@ -1,0 +1,5433 @@
+[ {
+  "match_id" : 3893834,
+  "match_date" : "2023-08-03",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 2391,
+    "home_team_name" : "Morocco Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    },
+    "managers" : [ {
+      "id" : 760,
+      "name" : "Reynald Pedros",
+      "nickname" : null,
+      "dob" : "1971-10-10",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16802,
+    "away_team_name" : "Colombia Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 49,
+      "name" : "Colombia"
+    },
+    "managers" : [ {
+      "id" : 1003448,
+      "name" : "Nelson Abadía Aragón",
+      "nickname" : null,
+      "dob" : "1956-06-05",
+      "country" : {
+        "id" : 49,
+        "name" : "Colombia"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:50:14.324089",
+  "last_updated_360" : "2026-05-03T13:54:48.085709",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28891,
+    "name" : "HBF Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1608,
+    "name" : "Maria Sole Ferrieri Caputi",
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    }
+  }
+}, {
+  "match_id" : 3893808,
+  "match_date" : "2023-07-27",
+  "kick_off" : "01:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1214,
+    "home_team_name" : "United States Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    },
+    "managers" : [ {
+      "id" : 141,
+      "name" : "Vlatko Andonovski",
+      "nickname" : null,
+      "dob" : "1976-09-14",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 851,
+    "away_team_name" : "Netherlands Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 46,
+      "name" : "Andries Jonker",
+      "nickname" : null,
+      "dob" : "1962-09-22",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:49:22.028198",
+  "last_updated_360" : "2026-05-03T13:54:26.772812",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2546,
+    "name" : "Yoshimi Yamashita",
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    }
+  }
+}, {
+  "match_id" : 3893818,
+  "match_date" : "2023-07-30",
+  "kick_off" : "09:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 857,
+    "home_team_name" : "Germany Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16802,
+    "away_team_name" : "Colombia Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 49,
+      "name" : "Colombia"
+    },
+    "managers" : [ {
+      "id" : 1003449,
+      "name" : "Angelo Marsiglia",
+      "nickname" : null,
+      "dob" : null,
+      "country" : {
+        "id" : 49,
+        "name" : "Colombia"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:48:18.300577",
+  "last_updated_360" : "2026-05-03T13:53:53.483974",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001126,
+    "name" : "Allianz Stadium (Sydney)",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1626,
+    "name" : "Melissa Paola Borjas Pastrana",
+    "country" : {
+      "id" : 101,
+      "name" : "Honduras"
+    }
+  }
+}, {
+  "match_id" : 3893795,
+  "match_date" : "2023-07-22",
+  "kick_off" : "12:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 853,
+    "home_team_name" : "Denmark Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 61,
+      "name" : "Denmark"
+    },
+    "managers" : [ {
+      "id" : 3574,
+      "name" : "Lars Søndergaard",
+      "nickname" : null,
+      "dob" : "1959-04-05",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1207,
+    "away_team_name" : "China PR Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 46,
+      "name" : "China"
+    },
+    "managers" : [ {
+      "id" : 1003429,
+      "name" : "Qingxia Shui",
+      "nickname" : "Shui Qingxia",
+      "dob" : "1966-12-18",
+      "country" : {
+        "id" : 46,
+        "name" : "China"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:43:49.004030",
+  "last_updated_360" : "2026-05-03T13:51:00.794205",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28891,
+    "name" : "HBF Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1627,
+    "name" : "Marie-Soleil Beaudoin",
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    }
+  }
+}, {
+  "match_id" : 3893825,
+  "match_date" : "2023-08-01",
+  "kick_off" : "11:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 2355,
+    "home_team_name" : "Haiti Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 98,
+      "name" : "Haiti"
+    },
+    "managers" : [ {
+      "id" : 1003427,
+      "name" : "Nicolas Michel Gregory Delépine",
+      "nickname" : null,
+      "dob" : "1979-05-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 853,
+    "away_team_name" : "Denmark Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 61,
+      "name" : "Denmark"
+    },
+    "managers" : [ {
+      "id" : 3574,
+      "name" : "Lars Søndergaard",
+      "nickname" : null,
+      "dob" : "1959-04-05",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:43:30.247676",
+  "last_updated_360" : "2026-05-03T13:50:35.097905",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28891,
+    "name" : "HBF Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1006261,
+    "name" : "Hyeon-Jeong Oh",
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }
+}, {
+  "match_id" : 3893798,
+  "match_date" : "2023-07-23",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 861,
+    "home_team_name" : "France Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 642,
+      "name" : "Hervé Renard",
+      "nickname" : null,
+      "dob" : "1968-09-30",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1212,
+    "away_team_name" : "Jamaica Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 113,
+      "name" : "Jamaica"
+    },
+    "managers" : [ {
+      "id" : 1003439,
+      "name" : "Lorne Garfield Donaldson",
+      "nickname" : null,
+      "dob" : "1955-10-09",
+      "country" : {
+        "id" : 113,
+        "name" : "Jamaica"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:47:32.251590",
+  "last_updated_360" : "2026-05-03T13:50:14.682921",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001126,
+    "name" : "Allianz Stadium (Sydney)",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2476,
+    "name" : "María Belén Carvajal Peña",
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }
+}, {
+  "match_id" : 3893832,
+  "match_date" : "2023-08-02",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1212,
+    "home_team_name" : "Jamaica Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 113,
+      "name" : "Jamaica"
+    },
+    "managers" : [ {
+      "id" : 1003439,
+      "name" : "Lorne Garfield Donaldson",
+      "nickname" : null,
+      "dob" : "1955-10-09",
+      "country" : {
+        "id" : 113,
+        "name" : "Jamaica"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1203,
+    "away_team_name" : "Brazil Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    },
+    "managers" : [ {
+      "id" : 177,
+      "name" : "Pia Mariane Sundhage",
+      "nickname" : "Pia Sundhage",
+      "dob" : "1960-02-13",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:48:01.900207",
+  "last_updated_360" : "2026-05-03T13:49:21.406907",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28886,
+    "name" : "AAMI Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 723,
+    "name" : "Esther Staubli",
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  }
+}, {
+  "match_id" : 3893829,
+  "match_date" : "2023-08-02",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 16803,
+    "home_team_name" : "Panama Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 176,
+      "name" : "Panama"
+    },
+    "managers" : [ {
+      "id" : 1003446,
+      "name" : "Ignacio Quintana Toledo",
+      "nickname" : null,
+      "dob" : "1988-04-20",
+      "country" : {
+        "id" : 147,
+        "name" : "Mexico"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 861,
+    "away_team_name" : "France Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 642,
+      "name" : "Hervé Renard",
+      "nickname" : null,
+      "dob" : "1968-09-30",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 3,
+  "away_score" : 6,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:49:05.785930",
+  "last_updated_360" : "2026-05-03T13:55:09.111105",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001126,
+    "name" : "Allianz Stadium (Sydney)",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2601,
+    "name" : "Laura Fortunato",
+    "country" : {
+      "id" : 11,
+      "name" : "Argentina"
+    }
+  }
+}, {
+  "match_id" : 3893805,
+  "match_date" : "2023-07-26",
+  "kick_off" : "05:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1210,
+    "home_team_name" : "Japan Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    },
+    "managers" : [ {
+      "id" : 1003258,
+      "name" : "Futoshi Ikeda",
+      "nickname" : null,
+      "dob" : "1970-10-04",
+      "country" : {
+        "id" : 114,
+        "name" : "Japan"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1832,
+    "away_team_name" : "Costa Rica Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 54,
+      "name" : "Costa Rica"
+    },
+    "managers" : [ {
+      "id" : 4855,
+      "name" : "Amelia Valverde",
+      "nickname" : null,
+      "dob" : "1987-01-14",
+      "country" : {
+        "id" : 54,
+        "name" : "Costa Rica"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:46:13.054610",
+  "last_updated_360" : "2026-05-03T13:48:21.176943",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001341,
+    "name" : "Forsyth Barr",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1608,
+    "name" : "Maria Sole Ferrieri Caputi",
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    }
+  }
+}, {
+  "match_id" : 3901734,
+  "match_date" : "2023-08-05",
+  "kick_off" : "08:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1210,
+    "home_team_name" : "Japan Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    },
+    "managers" : [ {
+      "id" : 1003258,
+      "name" : "Futoshi Ikeda",
+      "nickname" : null,
+      "dob" : "1970-10-04",
+      "country" : {
+        "id" : 114,
+        "name" : "Japan"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 852,
+    "away_team_name" : "Norway Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    },
+    "managers" : [ {
+      "id" : 1769,
+      "name" : "Hege Riise",
+      "nickname" : null,
+      "dob" : "1969-07-18",
+      "country" : {
+        "id" : 171,
+        "name" : "Norway"
+      }
+    } ]
+  },
+  "home_score" : 3,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:41:04.483533",
+  "last_updated_360" : "2026-05-03T13:44:33.351162",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2426,
+    "name" : "Edina Alves Batista",
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }
+}, {
+  "match_id" : 3893802,
+  "match_date" : "2023-07-25",
+  "kick_off" : "02:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 16802,
+    "home_team_name" : "Colombia Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 49,
+      "name" : "Colombia"
+    },
+    "managers" : [ {
+      "id" : 1003449,
+      "name" : "Angelo Marsiglia",
+      "nickname" : null,
+      "dob" : null,
+      "country" : {
+        "id" : 49,
+        "name" : "Colombia"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1211,
+    "away_team_name" : "Korea Republic Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    },
+    "managers" : [ {
+      "id" : 585,
+      "name" : "Colin Bell",
+      "nickname" : null,
+      "dob" : "1961-08-05",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:43:01.520652",
+  "last_updated_360" : "2026-05-03T13:47:08.931811",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001126,
+    "name" : "Allianz Stadium (Sydney)",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 566,
+    "name" : "Rebecca Welch",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }
+}, {
+  "match_id" : 3893799,
+  "match_date" : "2023-07-24",
+  "kick_off" : "08:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 857,
+    "home_team_name" : "Germany Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 2391,
+    "away_team_name" : "Morocco Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    },
+    "managers" : [ {
+      "id" : 760,
+      "name" : "Reynald Pedros",
+      "nickname" : null,
+      "dob" : "1971-10-10",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 6,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:41:04.596478",
+  "last_updated_360" : "2026-05-03T13:43:19.979909",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28886,
+    "name" : "AAMI Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1171,
+    "name" : "Tori Penso",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3893824,
+  "match_date" : "2023-07-31",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 16768,
+    "home_team_name" : "Republic of Ireland Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 109,
+      "name" : "Ireland"
+    },
+    "managers" : [ {
+      "id" : 132,
+      "name" : "Vera Pauw",
+      "nickname" : null,
+      "dob" : "1963-01-18",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1213,
+    "away_team_name" : "Nigeria Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 166,
+      "name" : "Nigeria"
+    },
+    "managers" : [ {
+      "id" : 1003417,
+      "name" : "Randy Marlon Waldrum",
+      "nickname" : null,
+      "dob" : "1956-09-25",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:41:00.240925",
+  "last_updated_360" : "2026-05-03T13:45:45.714761",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28884,
+    "name" : "Victoria Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1746,
+    "name" : "Katia Itzel García",
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }
+}, {
+  "match_id" : 3893827,
+  "match_date" : "2023-08-01",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 16769,
+    "home_team_name" : "Vietnam Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 247,
+      "name" : "Vietnam"
+    },
+    "managers" : [ {
+      "id" : 1003426,
+      "name" : "Đức Chung Mai",
+      "nickname" : "Mai Đức Chung",
+      "dob" : "1951-06-21",
+      "country" : {
+        "id" : 247,
+        "name" : "Vietnam"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 851,
+    "away_team_name" : "Netherlands Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 46,
+      "name" : "Andries Jonker",
+      "nickname" : null,
+      "dob" : "1962-09-22",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 7,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:45:49.889065",
+  "last_updated_360" : "2026-05-03T13:50:08.171100",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001341,
+    "name" : "Forsyth Barr",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 954,
+    "name" : "Ivana Martinčić",
+    "country" : {
+      "id" : 56,
+      "name" : "Croatia"
+    }
+  }
+}, {
+  "match_id" : 3893819,
+  "match_date" : "2023-07-30",
+  "kick_off" : "04:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1211,
+    "home_team_name" : "Korea Republic Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    },
+    "managers" : [ {
+      "id" : 585,
+      "name" : "Colin Bell",
+      "nickname" : null,
+      "dob" : "1961-08-05",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 2391,
+    "away_team_name" : "Morocco Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    },
+    "managers" : [ {
+      "id" : 760,
+      "name" : "Reynald Pedros",
+      "nickname" : null,
+      "dob" : "1971-10-10",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:45:58.693459",
+  "last_updated_360" : "2026-05-03T13:51:18.145283",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28889,
+    "name" : "Coopers Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2426,
+    "name" : "Edina Alves Batista",
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }
+}, {
+  "match_id" : 3893815,
+  "match_date" : "2023-07-29",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 861,
+    "home_team_name" : "France Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 642,
+      "name" : "Hervé Renard",
+      "nickname" : null,
+      "dob" : "1968-09-30",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1203,
+    "away_team_name" : "Brazil Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    },
+    "managers" : [ {
+      "id" : 177,
+      "name" : "Pia Mariane Sundhage",
+      "nickname" : "Pia Sundhage",
+      "dob" : "1960-02-13",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-11-05T10:11:40.526382",
+  "last_updated_360" : "2023-11-05T10:14:27.942646",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28884,
+    "name" : "Victoria Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1640,
+    "name" : "Katherine Margaret Jacewicz",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }
+}, {
+  "match_id" : 3893800,
+  "match_date" : "2023-07-24",
+  "kick_off" : "06:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 855,
+    "home_team_name" : "Italy Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    },
+    "managers" : [ {
+      "id" : 4085,
+      "name" : "Milena Bertolini",
+      "nickname" : null,
+      "dob" : "1966-06-24",
+      "country" : {
+        "id" : 112,
+        "name" : "Italy"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1204,
+    "away_team_name" : "Argentina Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 11,
+      "name" : "Argentina"
+    },
+    "managers" : [ {
+      "id" : 1003445,
+      "name" : "Germán Darío Portanova",
+      "nickname" : null,
+      "dob" : "1973-10-19",
+      "country" : {
+        "id" : 11,
+        "name" : "Argentina"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-08-12T17:44:57.719395",
+  "last_updated_360" : "2023-08-12T17:49:18.347307",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1626,
+    "name" : "Melissa Paola Borjas Pastrana",
+    "country" : {
+      "id" : 101,
+      "name" : "Honduras"
+    }
+  }
+}, {
+  "match_id" : 3893816,
+  "match_date" : "2023-07-29",
+  "kick_off" : "12:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 16803,
+    "home_team_name" : "Panama Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 176,
+      "name" : "Panama"
+    },
+    "managers" : [ {
+      "id" : 1003446,
+      "name" : "Ignacio Quintana Toledo",
+      "nickname" : null,
+      "dob" : "1988-04-20",
+      "country" : {
+        "id" : 147,
+        "name" : "Mexico"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1212,
+    "away_team_name" : "Jamaica Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 113,
+      "name" : "Jamaica"
+    },
+    "managers" : [ {
+      "id" : 1003439,
+      "name" : "Lorne Garfield Donaldson",
+      "nickname" : null,
+      "dob" : "1955-10-09",
+      "country" : {
+        "id" : 113,
+        "name" : "Jamaica"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:44:52.663741",
+  "last_updated_360" : "2026-05-03T13:52:02.300572",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28891,
+    "name" : "HBF Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 374,
+    "name" : "Kateryna Monzul",
+    "country" : {
+      "id" : 238,
+      "name" : "Ukraine"
+    }
+  }
+}, {
+  "match_id" : 3893830,
+  "match_date" : "2023-08-02",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1204,
+    "home_team_name" : "Argentina Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 11,
+      "name" : "Argentina"
+    },
+    "managers" : [ {
+      "id" : 1003445,
+      "name" : "Germán Darío Portanova",
+      "nickname" : null,
+      "dob" : "1973-10-19",
+      "country" : {
+        "id" : 11,
+        "name" : "Argentina"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 858,
+    "away_team_name" : "Sweden Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-12-08T19:46:08.458287",
+  "last_updated_360" : "2024-01-06T11:32:44.530991",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001342,
+    "name" : "FMG Stadium Waikato",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 2508,
+    "name" : "Salima Mukansanga",
+    "country" : {
+      "id" : 189,
+      "name" : "Rwanda"
+    }
+  }
+}, {
+  "match_id" : 3893833,
+  "match_date" : "2023-08-03",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1211,
+    "home_team_name" : "Korea Republic Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    },
+    "managers" : [ {
+      "id" : 585,
+      "name" : "Colin Bell",
+      "nickname" : null,
+      "dob" : "1961-08-05",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 857,
+    "away_team_name" : "Germany Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-08-04T21:33:56.230246",
+  "last_updated_360" : "2023-08-04T21:36:34.605701",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28884,
+    "name" : "Victoria Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2637,
+    "name" : "Anna-Marie Keighley",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  }
+}, {
+  "match_id" : 3901833,
+  "match_date" : "2023-08-08",
+  "kick_off" : "11:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 861,
+    "home_team_name" : "France Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 642,
+      "name" : "Hervé Renard",
+      "nickname" : null,
+      "dob" : "1968-09-30",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 2391,
+    "away_team_name" : "Morocco Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    },
+    "managers" : [ {
+      "id" : 760,
+      "name" : "Reynald Pedros",
+      "nickname" : null,
+      "dob" : "1971-10-10",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 4,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T01:50:51.137294",
+  "last_updated_360" : "2026-05-03T01:51:50.127163",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 28889,
+    "name" : "Coopers Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1171,
+    "name" : "Tori Penso",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3901736,
+  "match_date" : "2023-08-07",
+  "kick_off" : "10:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1205,
+    "home_team_name" : "Australia Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    },
+    "managers" : [ {
+      "id" : 408,
+      "name" : "Tony Gustavsson",
+      "nickname" : null,
+      "dob" : "1973-08-14",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 853,
+    "away_team_name" : "Denmark Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 61,
+      "name" : "Denmark"
+    },
+    "managers" : [ {
+      "id" : 3574,
+      "name" : "Lars Søndergaard",
+      "nickname" : null,
+      "dob" : "1959-04-05",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T02:19:19.906326",
+  "last_updated_360" : "2026-05-03T02:21:31.053933",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 117593,
+    "name" : "Accor Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 566,
+    "name" : "Rebecca Welch",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }
+}, {
+  "match_id" : 3902968,
+  "match_date" : "2023-08-12",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1205,
+    "home_team_name" : "Australia Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    },
+    "managers" : [ {
+      "id" : 408,
+      "name" : "Tony Gustavsson",
+      "nickname" : null,
+      "dob" : "1973-08-14",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 861,
+    "away_team_name" : "France Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 642,
+      "name" : "Hervé Renard",
+      "nickname" : null,
+      "dob" : "1968-09-30",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-07-14T10:07:06.620906",
+  "last_updated_360" : "2025-07-14T10:10:27.224586",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 5,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 28884,
+    "name" : "Victoria Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2476,
+    "name" : "María Belén Carvajal Peña",
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }
+}, {
+  "match_id" : 3893793,
+  "match_date" : "2023-07-22",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 6045,
+    "home_team_name" : "Zambia W",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 253,
+      "name" : "Zambia"
+    },
+    "managers" : [ {
+      "id" : 1000425,
+      "name" : "Bruce Mwape",
+      "nickname" : null,
+      "dob" : null,
+      "country" : {
+        "id" : 253,
+        "name" : "Zambia"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1210,
+    "away_team_name" : "Japan Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    },
+    "managers" : [ {
+      "id" : 1003258,
+      "name" : "Futoshi Ikeda",
+      "nickname" : null,
+      "dob" : "1970-10-04",
+      "country" : {
+        "id" : 114,
+        "name" : "Japan"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 5,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:45:49.320515",
+  "last_updated_360" : "2026-05-03T13:51:51.126829",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001342,
+    "name" : "FMG Stadium Waikato",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 830,
+    "name" : "Tess Olofsson",
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }
+}, {
+  "match_id" : 3893826,
+  "match_date" : "2023-08-01",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 864,
+    "home_team_name" : "Portugal Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    },
+    "managers" : [ {
+      "id" : 419,
+      "name" : "Francisco Miguel Conceição Roque Neto",
+      "nickname" : "Francisco Neto",
+      "dob" : "1981-07-11",
+      "country" : {
+        "id" : 183,
+        "name" : "Portugal"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1214,
+    "away_team_name" : "United States Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    },
+    "managers" : [ {
+      "id" : 141,
+      "name" : "Vlatko Andonovski",
+      "nickname" : null,
+      "dob" : "1976-09-14",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:44:31.865040",
+  "last_updated_360" : "2026-05-03T13:50:56.923191",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 566,
+    "name" : "Rebecca Welch",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }
+}, {
+  "match_id" : 3893823,
+  "match_date" : "2023-07-31",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1832,
+    "home_team_name" : "Costa Rica Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 54,
+      "name" : "Costa Rica"
+    },
+    "managers" : [ {
+      "id" : 4855,
+      "name" : "Amelia Valverde",
+      "nickname" : null,
+      "dob" : "1987-01-14",
+      "country" : {
+        "id" : 54,
+        "name" : "Costa Rica"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 6045,
+    "away_team_name" : "Zambia W",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 253,
+      "name" : "Zambia"
+    },
+    "managers" : [ {
+      "id" : 1000425,
+      "name" : "Bruce Mwape",
+      "nickname" : null,
+      "dob" : null,
+      "country" : {
+        "id" : 253,
+        "name" : "Zambia"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 3,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:50:46.536211",
+  "last_updated_360" : "2026-05-03T13:55:52.303219",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001342,
+    "name" : "FMG Stadium Waikato",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1005493,
+    "name" : "Bouchra Karboubi",
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }
+}, {
+  "match_id" : 3893813,
+  "match_date" : "2023-07-28",
+  "kick_off" : "11:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1207,
+    "home_team_name" : "China PR Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 46,
+      "name" : "China"
+    },
+    "managers" : [ {
+      "id" : 1003429,
+      "name" : "Qingxia Shui",
+      "nickname" : "Shui Qingxia",
+      "dob" : "1966-12-18",
+      "country" : {
+        "id" : 46,
+        "name" : "China"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 2355,
+    "away_team_name" : "Haiti Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 98,
+      "name" : "Haiti"
+    },
+    "managers" : [ {
+      "id" : 1003427,
+      "name" : "Nicolas Michel Gregory Delépine",
+      "nickname" : null,
+      "dob" : "1979-05-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:40:13.436174",
+  "last_updated_360" : "2026-05-03T13:41:37.586242",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28889,
+    "name" : "Coopers Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 960,
+    "name" : "Marta Huerta de Aza",
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    }
+  }
+}, {
+  "match_id" : 3893790,
+  "match_date" : "2023-07-21",
+  "kick_off" : "02:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1213,
+    "home_team_name" : "Nigeria Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 166,
+      "name" : "Nigeria"
+    },
+    "managers" : [ {
+      "id" : 1003417,
+      "name" : "Randy Marlon Waldrum",
+      "nickname" : null,
+      "dob" : "1956-09-25",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1206,
+    "away_team_name" : "Canada Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    },
+    "managers" : [ {
+      "id" : 1000081,
+      "name" : "Beverly Priestman",
+      "nickname" : null,
+      "dob" : "1986-04-29",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:41:54.907086",
+  "last_updated_360" : "2026-05-03T13:45:38.637527",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28886,
+    "name" : "AAMI Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 965,
+    "name" : "Lina Lehtovaara",
+    "country" : {
+      "id" : 77,
+      "name" : "Finland"
+    }
+  }
+}, {
+  "match_id" : 3893796,
+  "match_date" : "2023-07-23",
+  "kick_off" : "05:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 858,
+    "home_team_name" : "Sweden Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1216,
+    "away_team_name" : "South Africa Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 211,
+      "name" : "South Africa"
+    },
+    "managers" : [ {
+      "id" : 3925,
+      "name" : "Desiree Ellis",
+      "nickname" : null,
+      "dob" : "1963-03-14",
+      "country" : {
+        "id" : 211,
+        "name" : "South Africa"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:39:51.279262",
+  "last_updated_360" : "2026-05-03T13:42:02.733977",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 751,
+    "name" : "Katja Koroleva",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3893831,
+  "match_date" : "2023-08-02",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1216,
+    "home_team_name" : "South Africa Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 211,
+      "name" : "South Africa"
+    },
+    "managers" : [ {
+      "id" : 3925,
+      "name" : "Desiree Ellis",
+      "nickname" : null,
+      "dob" : "1963-03-14",
+      "country" : {
+        "id" : 211,
+        "name" : "South Africa"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 855,
+    "away_team_name" : "Italy Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    },
+    "managers" : [ {
+      "id" : 4085,
+      "name" : "Milena Bertolini",
+      "nickname" : null,
+      "dob" : "1966-06-24",
+      "country" : {
+        "id" : 112,
+        "name" : "Italy"
+      }
+    } ]
+  },
+  "home_score" : 3,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:46:57.071022",
+  "last_updated_360" : "2026-05-03T13:49:45.358839",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2476,
+    "name" : "María Belén Carvajal Peña",
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }
+}, {
+  "match_id" : 3906390,
+  "match_date" : "2023-08-20",
+  "kick_off" : "13:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 863,
+    "home_team_name" : "Spain Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 865,
+    "away_team_name" : "England Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2024-02-13T14:15:39.469890",
+  "last_updated_360" : "2024-02-13T14:23:53.816697",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 7,
+  "competition_stage" : {
+    "id" : 26,
+    "name" : "Final"
+  },
+  "stadium" : {
+    "id" : 117593,
+    "name" : "Accor Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1171,
+    "name" : "Tori Penso",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3893804,
+  "match_date" : "2023-07-25",
+  "kick_off" : "08:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 860,
+    "home_team_name" : "Switzerland Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    },
+    "managers" : [ {
+      "id" : 1002252,
+      "name" : "Inka Grings",
+      "nickname" : null,
+      "dob" : "1978-10-31",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 852,
+    "away_team_name" : "Norway Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    },
+    "managers" : [ {
+      "id" : 1769,
+      "name" : "Hege Riise",
+      "nickname" : null,
+      "dob" : "1969-07-18",
+      "country" : {
+        "id" : 171,
+        "name" : "Norway"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:44:04.000405",
+  "last_updated_360" : "2026-05-03T13:49:50.342872",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001342,
+    "name" : "FMG Stadium Waikato",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 128,
+    "name" : "Stéphanie Frappart",
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }
+}, {
+  "match_id" : 3893791,
+  "match_date" : "2023-07-21",
+  "kick_off" : "07:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 863,
+    "home_team_name" : "Spain Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1832,
+    "away_team_name" : "Costa Rica Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 54,
+      "name" : "Costa Rica"
+    },
+    "managers" : [ {
+      "id" : 4855,
+      "name" : "Amelia Valverde",
+      "nickname" : null,
+      "dob" : "1987-01-14",
+      "country" : {
+        "id" : 54,
+        "name" : "Costa Rica"
+      }
+    } ]
+  },
+  "home_score" : 3,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:39:55.715714",
+  "last_updated_360" : "2026-05-03T13:41:07.522768",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2388,
+    "name" : "Casey Reibelt",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }
+}, {
+  "match_id" : 3901733,
+  "match_date" : "2023-08-05",
+  "kick_off" : "05:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 860,
+    "home_team_name" : "Switzerland Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    },
+    "managers" : [ {
+      "id" : 1002252,
+      "name" : "Inka Grings",
+      "nickname" : null,
+      "dob" : "1978-10-31",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 863,
+    "away_team_name" : "Spain Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 5,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:51:31.021141",
+  "last_updated_360" : "2026-05-03T13:54:20.858214",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 833,
+    "name" : "Cheryl Foster",
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }
+}, {
+  "match_id" : 3893810,
+  "match_date" : "2023-07-27",
+  "kick_off" : "07:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 864,
+    "home_team_name" : "Portugal Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    },
+    "managers" : [ {
+      "id" : 419,
+      "name" : "Francisco Miguel Conceição Roque Neto",
+      "nickname" : "Francisco Neto",
+      "dob" : "1981-07-11",
+      "country" : {
+        "id" : 183,
+        "name" : "Portugal"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16769,
+    "away_team_name" : "Vietnam Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 247,
+      "name" : "Vietnam"
+    },
+    "managers" : [ {
+      "id" : 1003426,
+      "name" : "Đức Chung Mai",
+      "nickname" : "Mai Đức Chung",
+      "dob" : "1951-06-21",
+      "country" : {
+        "id" : 247,
+        "name" : "Vietnam"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:48:18.626103",
+  "last_updated_360" : "2026-05-03T13:54:50.883220",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001342,
+    "name" : "FMG Stadium Waikato",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 2508,
+    "name" : "Salima Mukansanga",
+    "country" : {
+      "id" : 189,
+      "name" : "Rwanda"
+    }
+  }
+}, {
+  "match_id" : 3893787,
+  "match_date" : "2023-07-20",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1215,
+    "home_team_name" : "New Zealand Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    },
+    "managers" : [ {
+      "id" : 1003415,
+      "name" : "Jitka Klimková",
+      "nickname" : null,
+      "dob" : "1974-08-20",
+      "country" : {
+        "id" : 60,
+        "name" : "Czech Republic"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 852,
+    "away_team_name" : "Norway Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    },
+    "managers" : [ {
+      "id" : 1769,
+      "name" : "Hege Riise",
+      "nickname" : null,
+      "dob" : "1969-07-18",
+      "country" : {
+        "id" : 171,
+        "name" : "Norway"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-10-29T01:55:21.360158",
+  "last_updated_360" : "2023-10-29T04:34:26.696341",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 2546,
+    "name" : "Yoshimi Yamashita",
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    }
+  }
+}, {
+  "match_id" : 3893820,
+  "match_date" : "2023-07-30",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 852,
+    "home_team_name" : "Norway Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    },
+    "managers" : [ {
+      "id" : 1769,
+      "name" : "Hege Riise",
+      "nickname" : null,
+      "dob" : "1969-07-18",
+      "country" : {
+        "id" : 171,
+        "name" : "Norway"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1106,
+    "away_team_name" : "Philippines Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 180,
+      "name" : "Philippines"
+    },
+    "managers" : [ {
+      "id" : 2957,
+      "name" : "Alen Stajčić",
+      "nickname" : null,
+      "dob" : "1973-11-02",
+      "country" : {
+        "id" : 14,
+        "name" : "Australia"
+      }
+    } ]
+  },
+  "home_score" : 6,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:47:07.635791",
+  "last_updated_360" : "2026-05-03T13:51:40.058738",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1627,
+    "name" : "Marie-Soleil Beaudoin",
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    }
+  }
+}, {
+  "match_id" : 3893817,
+  "match_date" : "2023-07-30",
+  "kick_off" : "10:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 860,
+    "home_team_name" : "Switzerland Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    },
+    "managers" : [ {
+      "id" : 1002252,
+      "name" : "Inka Grings",
+      "nickname" : null,
+      "dob" : "1978-10-31",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1215,
+    "away_team_name" : "New Zealand Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    },
+    "managers" : [ {
+      "id" : 1003415,
+      "name" : "Jitka Klimková",
+      "nickname" : null,
+      "dob" : "1974-08-20",
+      "country" : {
+        "id" : 60,
+        "name" : "Czech Republic"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-10-29T03:14:53.100822",
+  "last_updated_360" : "2023-10-29T04:20:43.194016",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001341,
+    "name" : "Forsyth Barr",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1171,
+    "name" : "Tori Penso",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3904629,
+  "match_date" : "2023-08-16",
+  "kick_off" : "13:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1205,
+    "home_team_name" : "Australia Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    },
+    "managers" : [ {
+      "id" : 408,
+      "name" : "Tony Gustavsson",
+      "nickname" : null,
+      "dob" : "1973-08-14",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 865,
+    "away_team_name" : "England Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 3,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2024-05-23T08:35:51.665229",
+  "last_updated_360" : "2024-05-23T08:38:03.731618",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 6,
+  "competition_stage" : {
+    "id" : 15,
+    "name" : "Semi-finals"
+  },
+  "stadium" : {
+    "id" : 117593,
+    "name" : "Accor Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1171,
+    "name" : "Tori Penso",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3906389,
+  "match_date" : "2023-08-19",
+  "kick_off" : "11:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 858,
+    "home_team_name" : "Sweden Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1205,
+    "away_team_name" : "Australia Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    },
+    "managers" : [ {
+      "id" : 408,
+      "name" : "Tony Gustavsson",
+      "nickname" : null,
+      "dob" : "1973-08-14",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2024-02-13T14:14:42.021817",
+  "last_updated_360" : "2024-02-13T14:19:12.386420",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 7,
+  "competition_stage" : {
+    "id" : 25,
+    "name" : "3rd Place Final"
+  },
+  "stadium" : {
+    "id" : 28884,
+    "name" : "Victoria Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 833,
+    "name" : "Cheryl Foster",
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }
+}, {
+  "match_id" : 3893821,
+  "match_date" : "2023-07-31",
+  "kick_off" : "13:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1206,
+    "home_team_name" : "Canada Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    },
+    "managers" : [ {
+      "id" : 1000081,
+      "name" : "Beverly Priestman",
+      "nickname" : null,
+      "dob" : "1986-04-29",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1205,
+    "away_team_name" : "Australia Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    },
+    "managers" : [ {
+      "id" : 408,
+      "name" : "Tony Gustavsson",
+      "nickname" : null,
+      "dob" : "1973-08-14",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 4,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-10-24T22:53:36.800379",
+  "last_updated_360" : "2023-10-24T22:55:17.236941",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28886,
+    "name" : "AAMI Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 128,
+    "name" : "Stéphanie Frappart",
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }
+}, {
+  "match_id" : 3904628,
+  "match_date" : "2023-08-15",
+  "kick_off" : "08:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 863,
+    "home_team_name" : "Spain Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 858,
+    "away_team_name" : "Sweden Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-02T13:54:26.006834",
+  "last_updated_360" : "2026-05-02T13:56:54.575146",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 6,
+  "competition_stage" : {
+    "id" : 15,
+    "name" : "Semi-finals"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 2426,
+    "name" : "Edina Alves Batista",
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }
+}, {
+  "match_id" : 3893806,
+  "match_date" : "2023-07-26",
+  "kick_off" : "07:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 863,
+    "home_team_name" : "Spain Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 6045,
+    "away_team_name" : "Zambia W",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 253,
+      "name" : "Zambia"
+    },
+    "managers" : [ {
+      "id" : 1000425,
+      "name" : "Bruce Mwape",
+      "nickname" : null,
+      "dob" : null,
+      "country" : {
+        "id" : 253,
+        "name" : "Zambia"
+      }
+    } ]
+  },
+  "home_score" : 5,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:47:20.877353",
+  "last_updated_360" : "2026-05-03T13:49:22.336117",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1006261,
+    "name" : "Hyeon-Jeong Oh",
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }
+}, {
+  "match_id" : 3893801,
+  "match_date" : "2023-07-24",
+  "kick_off" : "11:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1203,
+    "home_team_name" : "Brazil Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    },
+    "managers" : [ {
+      "id" : 177,
+      "name" : "Pia Mariane Sundhage",
+      "nickname" : "Pia Sundhage",
+      "dob" : "1960-02-13",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16803,
+    "away_team_name" : "Panama Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 176,
+      "name" : "Panama"
+    },
+    "managers" : [ {
+      "id" : 1003446,
+      "name" : "Ignacio Quintana Toledo",
+      "nickname" : null,
+      "dob" : "1988-04-20",
+      "country" : {
+        "id" : 147,
+        "name" : "Mexico"
+      }
+    } ]
+  },
+  "home_score" : 4,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:42:03.798603",
+  "last_updated_360" : "2026-05-03T13:44:05.977217",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28889,
+    "name" : "Coopers Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 833,
+    "name" : "Cheryl Foster",
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }
+}, {
+  "match_id" : 3893797,
+  "match_date" : "2023-07-23",
+  "kick_off" : "07:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 851,
+    "home_team_name" : "Netherlands Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 46,
+      "name" : "Andries Jonker",
+      "nickname" : null,
+      "dob" : "1962-09-22",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 864,
+    "away_team_name" : "Portugal Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    },
+    "managers" : [ {
+      "id" : 419,
+      "name" : "Francisco Miguel Conceição Roque Neto",
+      "nickname" : "Francisco Neto",
+      "dob" : "1981-07-11",
+      "country" : {
+        "id" : 183,
+        "name" : "Portugal"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:46:41.493237",
+  "last_updated_360" : "2026-05-03T13:50:36.605740",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001341,
+    "name" : "Forsyth Barr",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  }
+}, {
+  "match_id" : 3893822,
+  "match_date" : "2023-07-31",
+  "kick_off" : "07:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1210,
+    "home_team_name" : "Japan Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    },
+    "managers" : [ {
+      "id" : 1003258,
+      "name" : "Futoshi Ikeda",
+      "nickname" : null,
+      "dob" : "1970-10-04",
+      "country" : {
+        "id" : 114,
+        "name" : "Japan"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 863,
+    "away_team_name" : "Spain Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "home_score" : 4,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:49:41.352078",
+  "last_updated_360" : "2026-05-03T13:55:33.041563",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 751,
+    "name" : "Katja Koroleva",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3893814,
+  "match_date" : "2023-07-29",
+  "kick_off" : "07:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 858,
+    "home_team_name" : "Sweden Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 855,
+    "away_team_name" : "Italy Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    },
+    "managers" : [ {
+      "id" : 4085,
+      "name" : "Milena Bertolini",
+      "nickname" : null,
+      "dob" : "1966-06-24",
+      "country" : {
+        "id" : 112,
+        "name" : "Italy"
+      }
+    } ]
+  },
+  "home_score" : 5,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:43:44.981656",
+  "last_updated_360" : "2026-05-03T13:52:25.541820",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 833,
+    "name" : "Cheryl Foster",
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }
+}, {
+  "match_id" : 3901832,
+  "match_date" : "2023-08-08",
+  "kick_off" : "08:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 16802,
+    "home_team_name" : "Colombia Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 49,
+      "name" : "Colombia"
+    },
+    "managers" : [ {
+      "id" : 1003448,
+      "name" : "Nelson Abadía Aragón",
+      "nickname" : null,
+      "dob" : "1956-06-05",
+      "country" : {
+        "id" : 49,
+        "name" : "Colombia"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1212,
+    "away_team_name" : "Jamaica Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 113,
+      "name" : "Jamaica"
+    },
+    "managers" : [ {
+      "id" : 1003439,
+      "name" : "Lorne Garfield Donaldson",
+      "nickname" : null,
+      "dob" : "1955-10-09",
+      "country" : {
+        "id" : 113,
+        "name" : "Jamaica"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T01:49:48.406902",
+  "last_updated_360" : "2026-05-03T01:52:14.347035",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 28886,
+    "name" : "AAMI Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1640,
+    "name" : "Katherine Margaret Jacewicz",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }
+}, {
+  "match_id" : 3902967,
+  "match_date" : "2023-08-12",
+  "kick_off" : "10:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16802,
+    "away_team_name" : "Colombia Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 49,
+      "name" : "Colombia"
+    },
+    "managers" : [ {
+      "id" : 1003448,
+      "name" : "Nelson Abadía Aragón",
+      "nickname" : null,
+      "dob" : "1956-06-05",
+      "country" : {
+        "id" : 49,
+        "name" : "Colombia"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-02T13:53:19.273716",
+  "last_updated_360" : "2026-05-02T13:54:22.212332",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 5,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 117593,
+    "name" : "Accor Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 751,
+    "name" : "Katja Koroleva",
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }
+}, {
+  "match_id" : 3901797,
+  "match_date" : "2023-08-06",
+  "kick_off" : "09:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 858,
+    "home_team_name" : "Sweden Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1214,
+    "away_team_name" : "United States Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    },
+    "managers" : [ {
+      "id" : 141,
+      "name" : "Vlatko Andonovski",
+      "nickname" : null,
+      "dob" : "1976-09-14",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:43:30.817005",
+  "last_updated_360" : "2026-05-03T13:48:50.649783",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 28886,
+    "name" : "AAMI Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 128,
+    "name" : "Stéphanie Frappart",
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }
+}, {
+  "match_id" : 3901796,
+  "match_date" : "2023-08-06",
+  "kick_off" : "02:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 851,
+    "home_team_name" : "Netherlands Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 46,
+      "name" : "Andries Jonker",
+      "nickname" : null,
+      "dob" : "1962-09-22",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1216,
+    "away_team_name" : "South Africa Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 211,
+      "name" : "South Africa"
+    },
+    "managers" : [ {
+      "id" : 3925,
+      "name" : "Desiree Ellis",
+      "nickname" : null,
+      "dob" : "1963-03-14",
+      "country" : {
+        "id" : 211,
+        "name" : "South Africa"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:42:12.733391",
+  "last_updated_360" : "2026-05-03T13:43:53.592945",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 1001126,
+    "name" : "Allianz Stadium (Sydney)",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2546,
+    "name" : "Yoshimi Yamashita",
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    }
+  }
+}, {
+  "match_id" : 3902240,
+  "match_date" : "2023-08-11",
+  "kick_off" : "01:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 863,
+    "home_team_name" : "Spain Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 851,
+    "away_team_name" : "Netherlands Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 46,
+      "name" : "Andries Jonker",
+      "nickname" : null,
+      "dob" : "1962-09-22",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-02T13:52:09.102781",
+  "last_updated_360" : "2026-05-02T13:54:45.627744",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 5,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 128,
+    "name" : "Stéphanie Frappart",
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }
+}, {
+  "match_id" : 3902239,
+  "match_date" : "2023-08-11",
+  "kick_off" : "07:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1210,
+    "home_team_name" : "Japan Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    },
+    "managers" : [ {
+      "id" : 1003258,
+      "name" : "Futoshi Ikeda",
+      "nickname" : null,
+      "dob" : "1970-10-04",
+      "country" : {
+        "id" : 114,
+        "name" : "Japan"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 858,
+    "away_team_name" : "Sweden Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-02T13:50:47.537883",
+  "last_updated_360" : "2026-05-02T13:52:10.021109",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 5,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 723,
+    "name" : "Esther Staubli",
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  }
+}, {
+  "match_id" : 3901735,
+  "match_date" : "2023-08-07",
+  "kick_off" : "07:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1213,
+    "away_team_name" : "Nigeria Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 166,
+      "name" : "Nigeria"
+    },
+    "managers" : [ {
+      "id" : 1003417,
+      "name" : "Randy Marlon Waldrum",
+      "nickname" : null,
+      "dob" : "1956-09-25",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-10-19T13:25:10.355990",
+  "last_updated_360" : "2023-11-21T14:50:50.115561",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 33,
+    "name" : "Round of 16"
+  },
+  "stadium" : {
+    "id" : 1001548,
+    "name" : "Suncorp Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1626,
+    "name" : "Melissa Paola Borjas Pastrana",
+    "country" : {
+      "id" : 101,
+      "name" : "Honduras"
+    }
+  }
+}, {
+  "match_id" : 3893811,
+  "match_date" : "2023-07-28",
+  "kick_off" : "08:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 853,
+    "away_team_name" : "Denmark Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 61,
+      "name" : "Denmark"
+    },
+    "managers" : [ {
+      "id" : 3574,
+      "name" : "Lars Søndergaard",
+      "nickname" : null,
+      "dob" : "1959-04-05",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:42:34.319661",
+  "last_updated_360" : "2026-05-03T13:46:18.049132",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001126,
+    "name" : "Allianz Stadium (Sydney)",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 830,
+    "name" : "Tess Olofsson",
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }
+}, {
+  "match_id" : 3893812,
+  "match_date" : "2023-07-28",
+  "kick_off" : "00:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1204,
+    "home_team_name" : "Argentina Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 11,
+      "name" : "Argentina"
+    },
+    "managers" : [ {
+      "id" : 1003445,
+      "name" : "Germán Darío Portanova",
+      "nickname" : null,
+      "dob" : "1973-10-19",
+      "country" : {
+        "id" : 11,
+        "name" : "Argentina"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1216,
+    "away_team_name" : "South Africa Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 211,
+      "name" : "South Africa"
+    },
+    "managers" : [ {
+      "id" : 3925,
+      "name" : "Desiree Ellis",
+      "nickname" : null,
+      "dob" : "1963-03-14",
+      "country" : {
+        "id" : 211,
+        "name" : "South Africa"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:41:24.918506",
+  "last_updated_360" : "2026-05-03T13:46:45.498173",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001341,
+    "name" : "Forsyth Barr",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 2637,
+    "name" : "Anna-Marie Keighley",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  }
+}, {
+  "match_id" : 3893809,
+  "match_date" : "2023-07-27",
+  "kick_off" : "13:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1205,
+    "home_team_name" : "Australia Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    },
+    "managers" : [ {
+      "id" : 408,
+      "name" : "Tony Gustavsson",
+      "nickname" : null,
+      "dob" : "1973-08-14",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1213,
+    "away_team_name" : "Nigeria Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 166,
+      "name" : "Nigeria"
+    },
+    "managers" : [ {
+      "id" : 1003417,
+      "name" : "Randy Marlon Waldrum",
+      "nickname" : null,
+      "dob" : "1956-09-25",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 3,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-10-28T17:01:57.088664",
+  "last_updated_360" : "2023-10-28T18:01:35.073847",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28884,
+    "name" : "Victoria Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 723,
+    "name" : "Esther Staubli",
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  }
+}, {
+  "match_id" : 3893807,
+  "match_date" : "2023-07-26",
+  "kick_off" : "12:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1206,
+    "home_team_name" : "Canada Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    },
+    "managers" : [ {
+      "id" : 1000081,
+      "name" : "Beverly Priestman",
+      "nickname" : null,
+      "dob" : "1986-04-29",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16768,
+    "away_team_name" : "Republic of Ireland Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 109,
+      "name" : "Ireland"
+    },
+    "managers" : [ {
+      "id" : 132,
+      "name" : "Vera Pauw",
+      "nickname" : null,
+      "dob" : "1963-01-18",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:45:06.249069",
+  "last_updated_360" : "2026-05-03T13:48:55.015280",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28891,
+    "name" : "HBF Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2601,
+    "name" : "Laura Fortunato",
+    "country" : {
+      "id" : 11,
+      "name" : "Argentina"
+    }
+  }
+}, {
+  "match_id" : 3893788,
+  "match_date" : "2023-07-20",
+  "kick_off" : "13:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1205,
+    "home_team_name" : "Australia Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    },
+    "managers" : [ {
+      "id" : 408,
+      "name" : "Tony Gustavsson",
+      "nickname" : null,
+      "dob" : "1973-08-14",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16768,
+    "away_team_name" : "Republic of Ireland Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 109,
+      "name" : "Ireland"
+    },
+    "managers" : [ {
+      "id" : 132,
+      "name" : "Vera Pauw",
+      "nickname" : null,
+      "dob" : "1963-01-18",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-10-19T06:09:06.498680",
+  "last_updated_360" : "2023-10-19T06:10:24.374129",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 117593,
+    "name" : "Accor Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2426,
+    "name" : "Edina Alves Batista",
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }
+}, {
+  "match_id" : 3893789,
+  "match_date" : "2023-07-21",
+  "kick_off" : "05:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1106,
+    "home_team_name" : "Philippines Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 180,
+      "name" : "Philippines"
+    },
+    "managers" : [ {
+      "id" : 2957,
+      "name" : "Alen Stajčić",
+      "nickname" : null,
+      "dob" : "1973-11-02",
+      "country" : {
+        "id" : 14,
+        "name" : "Australia"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 860,
+    "away_team_name" : "Switzerland Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    },
+    "managers" : [ {
+      "id" : 1002252,
+      "name" : "Inka Grings",
+      "nickname" : null,
+      "dob" : "1978-10-31",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:41:04.299618",
+  "last_updated_360" : "2026-05-03T13:45:04.757658",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 1001341,
+    "name" : "Forsyth Barr",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1006259,
+    "name" : "Vincentia Enyonam Amedome",
+    "country" : {
+      "id" : 228,
+      "name" : "Togo"
+    }
+  }
+}, {
+  "match_id" : 3893794,
+  "match_date" : "2023-07-22",
+  "kick_off" : "09:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 2355,
+    "away_team_name" : "Haiti Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 98,
+      "name" : "Haiti"
+    },
+    "managers" : [ {
+      "id" : 1003427,
+      "name" : "Nicolas Michel Gregory Delépine",
+      "nickname" : null,
+      "dob" : "1979-05-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:44:46.270974",
+  "last_updated_360" : "2026-05-03T13:51:26.302290",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28884,
+    "name" : "Victoria Park",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1006663,
+    "name" : "Emikar Caldera Barrera",
+    "country" : {
+      "id" : 246,
+      "name" : "Venezuela (Bolivarian Republic)"
+    }
+  }
+}, {
+  "match_id" : 3893792,
+  "match_date" : "2023-07-22",
+  "kick_off" : "01:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1214,
+    "home_team_name" : "United States Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    },
+    "managers" : [ {
+      "id" : 141,
+      "name" : "Vlatko Andonovski",
+      "nickname" : null,
+      "dob" : "1976-09-14",
+      "country" : {
+        "id" : 241,
+        "name" : "United States of America"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 16769,
+    "away_team_name" : "Vietnam Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 247,
+      "name" : "Vietnam"
+    },
+    "managers" : [ {
+      "id" : 1003426,
+      "name" : "Đức Chung Mai",
+      "nickname" : "Mai Đức Chung",
+      "dob" : "1951-06-21",
+      "country" : {
+        "id" : 247,
+        "name" : "Vietnam"
+      }
+    } ]
+  },
+  "home_score" : 3,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:42:48.521811",
+  "last_updated_360" : "2026-05-03T13:44:36.073399",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28892,
+    "name" : "Eden Park",
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  },
+  "referee" : {
+    "id" : 1005493,
+    "name" : "Bouchra Karboubi",
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }
+}, {
+  "match_id" : 3893828,
+  "match_date" : "2023-08-01",
+  "kick_off" : "11:00:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1207,
+    "home_team_name" : "China PR Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 46,
+      "name" : "China"
+    },
+    "managers" : [ {
+      "id" : 1003429,
+      "name" : "Qingxia Shui",
+      "nickname" : "Shui Qingxia",
+      "dob" : "1966-12-18",
+      "country" : {
+        "id" : 46,
+        "name" : "China"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 865,
+    "away_team_name" : "England Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 6,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T13:42:19.983396",
+  "last_updated_360" : "2026-05-03T13:45:08.630109",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 28889,
+    "name" : "Coopers Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 2388,
+    "name" : "Casey Reibelt",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }
+}, {
+  "match_id" : 3893803,
+  "match_date" : "2023-07-25",
+  "kick_off" : "08:30:00.000",
+  "competition" : {
+    "competition_id" : 72,
+    "country_name" : "International",
+    "competition_name" : "Women's World Cup"
+  },
+  "season" : {
+    "season_id" : 107,
+    "season_name" : "2023"
+  },
+  "home_team" : {
+    "home_team_id" : 1215,
+    "home_team_name" : "New Zealand Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    },
+    "managers" : [ {
+      "id" : 1003415,
+      "name" : "Jitka Klimková",
+      "nickname" : null,
+      "dob" : "1974-08-20",
+      "country" : {
+        "id" : 60,
+        "name" : "Czech Republic"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 1106,
+    "away_team_name" : "Philippines Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 180,
+      "name" : "Philippines"
+    },
+    "managers" : [ {
+      "id" : 2957,
+      "name" : "Alen Stajčić",
+      "nickname" : null,
+      "dob" : "1973-11-02",
+      "country" : {
+        "id" : 14,
+        "name" : "Australia"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2024-08-05T15:39:47.734503",
+  "last_updated_360" : "2024-08-05T15:44:56.967198",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 98115,
+    "name" : "Wellington Regional Stadium",
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  },
+  "referee" : {
+    "id" : 1746,
+    "name" : "Katia Itzel García",
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }
+} ]

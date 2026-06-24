@@ -1,0 +1,2636 @@
+[ {
+  "match_id" : 3835320,
+  "match_date" : "2022-07-07",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 852,
+    "home_team_name" : "Norway Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    },
+    "managers" : [ {
+      "id" : 764,
+      "name" : "Martin Sjögren",
+      "nickname" : null,
+      "dob" : "1977-04-27",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 2457,
+    "away_team_name" : "Northern Ireland W",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 169,
+      "name" : "Northern Ireland"
+    },
+    "managers" : [ {
+      "id" : 4197,
+      "name" : "Kenny Shiels",
+      "nickname" : null,
+      "dob" : "1956-04-27",
+      "country" : {
+        "id" : 169,
+        "name" : "Northern Ireland"
+      }
+    } ]
+  },
+  "home_score" : 4,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-05T03:02:12.737593",
+  "last_updated_360" : "2026-05-05T03:03:48.063607",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 4591,
+    "name" : "St. Mary's Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 965,
+    "name" : "Lina Lehtovaara",
+    "country" : {
+      "id" : 77,
+      "name" : "Finland"
+    }
+  }
+}, {
+  "match_id" : 3835326,
+  "match_date" : "2022-07-10",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 854,
+    "home_team_name" : "Belgium Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 22,
+      "name" : "Belgium"
+    },
+    "managers" : [ {
+      "id" : 426,
+      "name" : "Ives Serneels",
+      "nickname" : null,
+      "dob" : "1972-10-16",
+      "country" : {
+        "id" : 22,
+        "name" : "Belgium"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 862,
+    "away_team_name" : "Iceland Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 104,
+      "name" : "Iceland"
+    },
+    "managers" : [ {
+      "id" : 3642,
+      "name" : "Thorsteinn Halldórsson",
+      "nickname" : null,
+      "dob" : "1968-01-07",
+      "country" : {
+        "id" : 104,
+        "name" : "Iceland"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-05T03:01:47.218616",
+  "last_updated_360" : "2026-05-05T03:03:15.908628",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 99,
+    "name" : "Joie Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 830,
+    "name" : "Tess Olofsson",
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }
+}, {
+  "match_id" : 3835324,
+  "match_date" : "2022-07-09",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 851,
+    "home_team_name" : "Netherlands Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 129,
+      "name" : "Mark Richard David Parsons",
+      "nickname" : null,
+      "dob" : "1986-08-08",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 858,
+    "away_team_name" : "Sweden Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-05T03:00:47.821217",
+  "last_updated_360" : "2026-05-05T03:01:16.555504",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 216,
+    "name" : "Bramall Lane",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 833,
+    "name" : "Cheryl Foster",
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }
+}, {
+  "match_id" : 3835336,
+  "match_date" : "2022-07-15",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 859,
+    "home_team_name" : "Austria Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 15,
+      "name" : "Austria"
+    },
+    "managers" : [ {
+      "id" : 1001600,
+      "name" : "Irene Fuhrmann",
+      "nickname" : null,
+      "dob" : "1980-09-23",
+      "country" : {
+        "id" : 15,
+        "name" : "Austria"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 852,
+    "away_team_name" : "Norway Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    },
+    "managers" : [ {
+      "id" : 764,
+      "name" : "Martin Sjögren",
+      "nickname" : null,
+      "dob" : "1977-04-27",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:39:01.718048",
+  "last_updated_360" : "2026-05-04T01:46:07.026825",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 203,
+    "name" : "The American Express Community Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 374,
+    "name" : "Kateryna Monzul",
+    "country" : {
+      "id" : 238,
+      "name" : "Ukraine"
+    }
+  }
+}, {
+  "match_id" : 3835334,
+  "match_date" : "2022-07-14",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 855,
+    "home_team_name" : "Italy Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    },
+    "managers" : [ {
+      "id" : 4085,
+      "name" : "Milena Bertolini",
+      "nickname" : null,
+      "dob" : "1966-06-24",
+      "country" : {
+        "id" : 112,
+        "name" : "Italy"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 862,
+    "away_team_name" : "Iceland Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 104,
+      "name" : "Iceland"
+    },
+    "managers" : [ {
+      "id" : 3642,
+      "name" : "Thorsteinn Halldórsson",
+      "nickname" : null,
+      "dob" : "1968-01-07",
+      "country" : {
+        "id" : 104,
+        "name" : "Iceland"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:36:48.260284",
+  "last_updated_360" : "2026-05-04T01:39:37.641427",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 99,
+    "name" : "Joie Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 965,
+    "name" : "Lina Lehtovaara",
+    "country" : {
+      "id" : 77,
+      "name" : "Finland"
+    }
+  }
+}, {
+  "match_id" : 3844386,
+  "match_date" : "2022-07-22",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 858,
+    "home_team_name" : "Sweden Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 854,
+    "away_team_name" : "Belgium Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 22,
+      "name" : "Belgium"
+    },
+    "managers" : [ {
+      "id" : 426,
+      "name" : "Ives Serneels",
+      "nickname" : null,
+      "dob" : "1972-10-16",
+      "country" : {
+        "id" : 22,
+        "name" : "Belgium"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:34:00.988774",
+  "last_updated_360" : "2026-05-04T01:36:45.311",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 4979,
+    "name" : "Leigh Sports Village Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 374,
+    "name" : "Kateryna Monzul",
+    "country" : {
+      "id" : 238,
+      "name" : "Ukraine"
+    }
+  }
+}, {
+  "match_id" : 3835327,
+  "match_date" : "2022-07-11",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 852,
+    "away_team_name" : "Norway Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    },
+    "managers" : [ {
+      "id" : 764,
+      "name" : "Martin Sjögren",
+      "nickname" : null,
+      "dob" : "1977-04-27",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 8,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:33:31.461388",
+  "last_updated_360" : "2026-05-04T01:36:42.564393",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 203,
+    "name" : "The American Express Community Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 990,
+    "name" : "Riem Hussein",
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }
+}, {
+  "match_id" : 3835330,
+  "match_date" : "2022-07-12",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 857,
+    "home_team_name" : "Germany Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 863,
+    "away_team_name" : "Spain Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:34:43.908715",
+  "last_updated_360" : "2026-05-04T01:35:46.777713",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 116926,
+    "name" : "Gtech Community Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 128,
+    "name" : "Stéphanie Frappart",
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }
+}, {
+  "match_id" : 3844385,
+  "match_date" : "2022-07-21",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 857,
+    "home_team_name" : "Germany Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 859,
+    "away_team_name" : "Austria Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 15,
+      "name" : "Austria"
+    },
+    "managers" : [ {
+      "id" : 1001600,
+      "name" : "Irene Fuhrmann",
+      "nickname" : null,
+      "dob" : "1980-09-23",
+      "country" : {
+        "id" : 15,
+        "name" : "Austria"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:33:03.018851",
+  "last_updated_360" : "2026-05-04T01:33:30.718536",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 116926,
+    "name" : "Gtech Community Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 566,
+    "name" : "Rebecca Welch",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }
+}, {
+  "match_id" : 3835339,
+  "match_date" : "2022-07-17",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 860,
+    "home_team_name" : "Switzerland Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    },
+    "managers" : [ {
+      "id" : 429,
+      "name" : "Nils Herbert Kromann Nielsen",
+      "nickname" : null,
+      "dob" : "1971-11-03",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 851,
+    "away_team_name" : "Netherlands Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 129,
+      "name" : "Mark Richard David Parsons",
+      "nickname" : null,
+      "dob" : "1986-08-08",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 4,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:42:18.489412",
+  "last_updated_360" : "2026-05-04T01:51:47.896173",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 216,
+    "name" : "Bramall Lane",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 811,
+    "name" : "Iuliana Elena Demetrescu",
+    "country" : {
+      "id" : 187,
+      "name" : "Romania"
+    }
+  }
+}, {
+  "match_id" : 3835331,
+  "match_date" : "2022-07-13",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 858,
+    "home_team_name" : "Sweden Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 860,
+    "away_team_name" : "Switzerland Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    },
+    "managers" : [ {
+      "id" : 429,
+      "name" : "Nils Herbert Kromann Nielsen",
+      "nickname" : null,
+      "dob" : "1971-11-03",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-03T20:21:39.302434",
+  "last_updated_360" : "2026-05-03T20:23:09.010041",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 216,
+    "name" : "Bramall Lane",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 960,
+    "name" : "Marta Huerta de Aza",
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    }
+  }
+}, {
+  "match_id" : 3845507,
+  "match_date" : "2022-07-27",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 857,
+    "home_team_name" : "Germany Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 861,
+    "away_team_name" : "France Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 500,
+      "name" : "Corinne Catherine Diacre",
+      "nickname" : null,
+      "dob" : "1974-08-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-28T15:13:40.105177",
+  "last_updated_360" : "2025-10-28T15:23:59.736446",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 5,
+  "competition_stage" : {
+    "id" : 15,
+    "name" : "Semi-finals"
+  },
+  "stadium" : {
+    "id" : 25,
+    "name" : "Stadium MK",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 833,
+    "name" : "Cheryl Foster",
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }
+}, {
+  "match_id" : 3835321,
+  "match_date" : "2022-07-08",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 863,
+    "home_team_name" : "Spain Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 920,
+    "away_team_name" : "WNT Finland",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 77,
+      "name" : "Finland"
+    },
+    "managers" : [ {
+      "id" : 753,
+      "name" : "Anna Signeul",
+      "nickname" : null,
+      "dob" : "1961-05-20",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 4,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-28T15:10:30.873943",
+  "last_updated_360" : "2025-10-28T15:17:07.307122",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 25,
+    "name" : "Stadium MK",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 374,
+    "name" : "Kateryna Monzul",
+    "country" : {
+      "id" : 238,
+      "name" : "Ukraine"
+    }
+  }
+}, {
+  "match_id" : 3844384,
+  "match_date" : "2022-07-20",
+  "kick_off" : "21:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 863,
+    "away_team_name" : "Spain Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2023-02-22T23:06:39.942980",
+  "last_updated_360" : "2023-04-26T02:03:52.207197",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 203,
+    "name" : "The American Express Community Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 128,
+    "name" : "Stéphanie Frappart",
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }
+}, {
+  "match_id" : 3847567,
+  "match_date" : "2022-07-31",
+  "kick_off" : "18:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 857,
+    "away_team_name" : "Germany Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2024-02-13T13:27:17.178263",
+  "last_updated_360" : "2024-02-13T13:30:52.820588",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 6,
+  "competition_stage" : {
+    "id" : 26,
+    "name" : "Final"
+  },
+  "stadium" : {
+    "id" : 4666,
+    "name" : "Wembley Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 374,
+    "name" : "Kateryna Monzul",
+    "country" : {
+      "id" : 238,
+      "name" : "Ukraine"
+    }
+  }
+}, {
+  "match_id" : 3845506,
+  "match_date" : "2022-07-26",
+  "kick_off" : "21:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 858,
+    "away_team_name" : "Sweden Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 4,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2022-12-02T01:37:33.124516",
+  "last_updated_360" : "2023-04-26T00:44:10.275394",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 5,
+  "competition_stage" : {
+    "id" : 15,
+    "name" : "Semi-finals"
+  },
+  "stadium" : {
+    "id" : 216,
+    "name" : "Bramall Lane",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 723,
+    "name" : "Esther Staubli",
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  }
+}, {
+  "match_id" : 3835335,
+  "match_date" : "2022-07-15",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 2457,
+    "home_team_name" : "Northern Ireland W",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 169,
+      "name" : "Northern Ireland"
+    },
+    "managers" : [ {
+      "id" : 4197,
+      "name" : "Kenny Shiels",
+      "nickname" : null,
+      "dob" : "1956-04-27",
+      "country" : {
+        "id" : 169,
+        "name" : "Northern Ireland"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 865,
+    "away_team_name" : "England Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 5,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:37:52.058549",
+  "last_updated_360" : "2026-05-04T01:38:52.386375",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 4591,
+    "name" : "St. Mary's Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 723,
+    "name" : "Esther Staubli",
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  }
+}, {
+  "match_id" : 3835323,
+  "match_date" : "2022-07-09",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 864,
+    "home_team_name" : "Portugal Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    },
+    "managers" : [ {
+      "id" : 419,
+      "name" : "Francisco Miguel Conceição Roque Neto",
+      "nickname" : "Francisco Neto",
+      "dob" : "1981-07-11",
+      "country" : {
+        "id" : 183,
+        "name" : "Portugal"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 860,
+    "away_team_name" : "Switzerland Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    },
+    "managers" : [ {
+      "id" : 429,
+      "name" : "Nils Herbert Kromann Nielsen",
+      "nickname" : null,
+      "dob" : "1971-11-03",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-05T02:59:46.494329",
+  "last_updated_360" : "2026-05-05T03:01:51.542648",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 4979,
+    "name" : "Leigh Sports Village Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 744,
+    "name" : "Jana Adamkova",
+    "country" : {
+      "id" : 60,
+      "name" : "Czech Republic"
+    }
+  }
+}, {
+  "match_id" : 3835325,
+  "match_date" : "2022-07-10",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 861,
+    "home_team_name" : "France Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 500,
+      "name" : "Corinne Catherine Diacre",
+      "nickname" : null,
+      "dob" : "1974-08-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 855,
+    "away_team_name" : "Italy Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    },
+    "managers" : [ {
+      "id" : 4085,
+      "name" : "Milena Bertolini",
+      "nickname" : null,
+      "dob" : "1966-06-24",
+      "country" : {
+        "id" : 112,
+        "name" : "Italy"
+      }
+    } ]
+  },
+  "home_score" : 5,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-29T01:56:58.120495",
+  "last_updated_360" : "2025-10-29T01:58:40.099163",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 67,
+    "name" : "AESSEAL New York Stadium ",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 566,
+    "name" : "Rebecca Welch",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }
+}, {
+  "match_id" : 3844387,
+  "match_date" : "2022-07-23",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 861,
+    "home_team_name" : "France Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 500,
+      "name" : "Corinne Catherine Diacre",
+      "nickname" : null,
+      "dob" : "1974-08-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 851,
+    "away_team_name" : "Netherlands Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 129,
+      "name" : "Mark Richard David Parsons",
+      "nickname" : null,
+      "dob" : "1986-08-08",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-29T02:00:28.668022",
+  "last_updated_360" : "2025-10-29T02:02:03.923638",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 4,
+  "competition_stage" : {
+    "id" : 11,
+    "name" : "Quarter-finals"
+  },
+  "stadium" : {
+    "id" : 67,
+    "name" : "AESSEAL New York Stadium ",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 954,
+    "name" : "Ivana Martinčić",
+    "country" : {
+      "id" : 56,
+      "name" : "Croatia"
+    }
+  }
+}, {
+  "match_id" : 3835342,
+  "match_date" : "2022-07-18",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 862,
+    "home_team_name" : "Iceland Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 104,
+      "name" : "Iceland"
+    },
+    "managers" : [ {
+      "id" : 3642,
+      "name" : "Thorsteinn Halldórsson",
+      "nickname" : null,
+      "dob" : "1968-01-07",
+      "country" : {
+        "id" : 104,
+        "name" : "Iceland"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 861,
+    "away_team_name" : "France Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 500,
+      "name" : "Corinne Catherine Diacre",
+      "nickname" : null,
+      "dob" : "1974-08-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-29T01:59:06.763006",
+  "last_updated_360" : "2025-10-29T02:00:59.927998",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 67,
+    "name" : "AESSEAL New York Stadium ",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 744,
+    "name" : "Jana Adamkova",
+    "country" : {
+      "id" : 60,
+      "name" : "Czech Republic"
+    }
+  }
+}, {
+  "match_id" : 3835337,
+  "match_date" : "2022-07-16",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 853,
+    "home_team_name" : "Denmark Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 61,
+      "name" : "Denmark"
+    },
+    "managers" : [ {
+      "id" : 3574,
+      "name" : "Lars Søndergaard",
+      "nickname" : null,
+      "dob" : "1959-04-05",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 863,
+    "away_team_name" : "Spain Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    },
+    "managers" : [ {
+      "id" : 418,
+      "name" : "Jorge Vilda",
+      "nickname" : null,
+      "dob" : "1981-07-07",
+      "country" : {
+        "id" : 214,
+        "name" : "Spain"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:40:12.977826",
+  "last_updated_360" : "2026-05-04T01:45:24.077345",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 116926,
+    "name" : "Gtech Community Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 566,
+    "name" : "Rebecca Welch",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }
+}, {
+  "match_id" : 3835338,
+  "match_date" : "2022-07-16",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 920,
+    "home_team_name" : "WNT Finland",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 77,
+      "name" : "Finland"
+    },
+    "managers" : [ {
+      "id" : 753,
+      "name" : "Anna Signeul",
+      "nickname" : null,
+      "dob" : "1961-05-20",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 857,
+    "away_team_name" : "Germany Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 3,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-28T15:12:45.273288",
+  "last_updated_360" : "2025-10-28T15:24:25.303766",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 25,
+    "name" : "Stadium MK",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 1006663,
+    "name" : "Emikar Caldera Barrera",
+    "country" : {
+      "id" : 246,
+      "name" : "Venezuela (Bolivarian Republic)"
+    }
+  }
+}, {
+  "match_id" : 3835329,
+  "match_date" : "2022-07-12",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 853,
+    "home_team_name" : "Denmark Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 61,
+      "name" : "Denmark"
+    },
+    "managers" : [ {
+      "id" : 3574,
+      "name" : "Lars Søndergaard",
+      "nickname" : null,
+      "dob" : "1959-04-05",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 920,
+    "away_team_name" : "WNT Finland",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 77,
+      "name" : "Finland"
+    },
+    "managers" : [ {
+      "id" : 753,
+      "name" : "Anna Signeul",
+      "nickname" : null,
+      "dob" : "1961-05-20",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-28T15:11:39.922833",
+  "last_updated_360" : "2025-10-28T15:24:52.285456",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 25,
+    "name" : "Stadium MK",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 811,
+    "name" : "Iuliana Elena Demetrescu",
+    "country" : {
+      "id" : 187,
+      "name" : "Romania"
+    }
+  }
+}, {
+  "match_id" : 3835322,
+  "match_date" : "2022-07-08",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 857,
+    "home_team_name" : "Germany Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    },
+    "managers" : [ {
+      "id" : 53,
+      "name" : "Martina Voss-Tecklenburg",
+      "nickname" : null,
+      "dob" : "1967-12-22",
+      "country" : {
+        "id" : 85,
+        "name" : "Germany"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 853,
+    "away_team_name" : "Denmark Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 61,
+      "name" : "Denmark"
+    },
+    "managers" : [ {
+      "id" : 3574,
+      "name" : "Lars Søndergaard",
+      "nickname" : null,
+      "dob" : "1959-04-05",
+      "country" : {
+        "id" : 61,
+        "name" : "Denmark"
+      }
+    } ]
+  },
+  "home_score" : 4,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-05T03:03:04.199896",
+  "last_updated_360" : "2026-05-05T03:05:32.480837",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 116926,
+    "name" : "Gtech Community Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 723,
+    "name" : "Esther Staubli",
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  }
+}, {
+  "match_id" : 3835332,
+  "match_date" : "2022-07-13",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 851,
+    "home_team_name" : "Netherlands Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 160,
+      "name" : "Netherlands"
+    },
+    "managers" : [ {
+      "id" : 129,
+      "name" : "Mark Richard David Parsons",
+      "nickname" : null,
+      "dob" : "1986-08-08",
+      "country" : {
+        "id" : 68,
+        "name" : "England"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 864,
+    "away_team_name" : "Portugal Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    },
+    "managers" : [ {
+      "id" : 419,
+      "name" : "Francisco Miguel Conceição Roque Neto",
+      "nickname" : "Francisco Neto",
+      "dob" : "1981-07-11",
+      "country" : {
+        "id" : 183,
+        "name" : "Portugal"
+      }
+    } ]
+  },
+  "home_score" : 3,
+  "away_score" : 2,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:35:47.445538",
+  "last_updated_360" : "2026-05-04T01:40:13.018482",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 4979,
+    "name" : "Leigh Sports Village Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 954,
+    "name" : "Ivana Martinčić",
+    "country" : {
+      "id" : 56,
+      "name" : "Croatia"
+    }
+  }
+}, {
+  "match_id" : 3835341,
+  "match_date" : "2022-07-18",
+  "kick_off" : "21:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 855,
+    "home_team_name" : "Italy Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 112,
+      "name" : "Italy"
+    },
+    "managers" : [ {
+      "id" : 4085,
+      "name" : "Milena Bertolini",
+      "nickname" : null,
+      "dob" : "1966-06-24",
+      "country" : {
+        "id" : 112,
+        "name" : "Italy"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 854,
+    "away_team_name" : "Belgium Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 22,
+      "name" : "Belgium"
+    },
+    "managers" : [ {
+      "id" : 426,
+      "name" : "Ives Serneels",
+      "nickname" : null,
+      "dob" : "1972-10-16",
+      "country" : {
+        "id" : 22,
+        "name" : "Belgium"
+      }
+    } ]
+  },
+  "home_score" : 0,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2022-12-02T01:32:58.240464",
+  "last_updated_360" : "2023-04-14T11:34:00.046680",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 99,
+    "name" : "Joie Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 954,
+    "name" : "Ivana Martinčić",
+    "country" : {
+      "id" : 56,
+      "name" : "Croatia"
+    }
+  }
+}, {
+  "match_id" : 3835340,
+  "match_date" : "2022-07-17",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 858,
+    "home_team_name" : "Sweden Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    },
+    "managers" : [ {
+      "id" : 3016,
+      "name" : "Peter Gerhardsson",
+      "nickname" : null,
+      "dob" : "1959-08-22",
+      "country" : {
+        "id" : 220,
+        "name" : "Sweden"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 864,
+    "away_team_name" : "Portugal Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    },
+    "managers" : [ {
+      "id" : 419,
+      "name" : "Francisco Miguel Conceição Roque Neto",
+      "nickname" : "Francisco Neto",
+      "dob" : "1981-07-11",
+      "country" : {
+        "id" : 183,
+        "name" : "Portugal"
+      }
+    } ]
+  },
+  "home_score" : 5,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-04T01:41:12.108118",
+  "last_updated_360" : "2026-05-04T01:44:49.290722",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 3,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 4979,
+    "name" : "Leigh Sports Village Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 128,
+    "name" : "Stéphanie Frappart",
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }
+}, {
+  "match_id" : 3835328,
+  "match_date" : "2022-07-11",
+  "kick_off" : "16:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 859,
+    "home_team_name" : "Austria Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 15,
+      "name" : "Austria"
+    },
+    "managers" : [ {
+      "id" : 1001600,
+      "name" : "Irene Fuhrmann",
+      "nickname" : null,
+      "dob" : "1980-09-23",
+      "country" : {
+        "id" : 15,
+        "name" : "Austria"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 2457,
+    "away_team_name" : "Northern Ireland W",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 169,
+      "name" : "Northern Ireland"
+    },
+    "managers" : [ {
+      "id" : 4197,
+      "name" : "Kenny Shiels",
+      "nickname" : null,
+      "dob" : "1956-04-27",
+      "country" : {
+        "id" : 169,
+        "name" : "Northern Ireland"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2026-05-05T03:02:38.707104",
+  "last_updated_360" : "2026-05-05T03:03:52.757062",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 4591,
+    "name" : "St. Mary's Stadium",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 1006663,
+    "name" : "Emikar Caldera Barrera",
+    "country" : {
+      "id" : 246,
+      "name" : "Venezuela (Bolivarian Republic)"
+    }
+  }
+}, {
+  "match_id" : 3835333,
+  "match_date" : "2022-07-14",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 861,
+    "home_team_name" : "France Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    },
+    "managers" : [ {
+      "id" : 500,
+      "name" : "Corinne Catherine Diacre",
+      "nickname" : null,
+      "dob" : "1974-08-04",
+      "country" : {
+        "id" : 78,
+        "name" : "France"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 854,
+    "away_team_name" : "Belgium Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 22,
+      "name" : "Belgium"
+    },
+    "managers" : [ {
+      "id" : 426,
+      "name" : "Ives Serneels",
+      "nickname" : null,
+      "dob" : "1972-10-16",
+      "country" : {
+        "id" : 22,
+        "name" : "Belgium"
+      }
+    } ]
+  },
+  "home_score" : 2,
+  "away_score" : 1,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-29T01:58:05.190363",
+  "last_updated_360" : "2025-10-29T01:59:22.520502",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 2,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 67,
+    "name" : "AESSEAL New York Stadium ",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 833,
+    "name" : "Cheryl Foster",
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }
+}, {
+  "match_id" : 3835319,
+  "match_date" : "2022-07-06",
+  "kick_off" : "19:00:00.000",
+  "competition" : {
+    "competition_id" : 53,
+    "country_name" : "Europe",
+    "competition_name" : "UEFA Women's Euro"
+  },
+  "season" : {
+    "season_id" : 106,
+    "season_name" : "2022"
+  },
+  "home_team" : {
+    "home_team_id" : 865,
+    "home_team_name" : "England Women's",
+    "home_team_gender" : "female",
+    "home_team_group" : null,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    },
+    "managers" : [ {
+      "id" : 45,
+      "name" : "Sarina Glotzbach-Wiegman",
+      "nickname" : "Sarina Wiegman",
+      "dob" : "1969-10-26",
+      "country" : {
+        "id" : 160,
+        "name" : "Netherlands"
+      }
+    } ]
+  },
+  "away_team" : {
+    "away_team_id" : 859,
+    "away_team_name" : "Austria Women's",
+    "away_team_gender" : "female",
+    "away_team_group" : null,
+    "country" : {
+      "id" : 15,
+      "name" : "Austria"
+    },
+    "managers" : [ {
+      "id" : 1001600,
+      "name" : "Irene Fuhrmann",
+      "nickname" : null,
+      "dob" : "1980-09-23",
+      "country" : {
+        "id" : 15,
+        "name" : "Austria"
+      }
+    } ]
+  },
+  "home_score" : 1,
+  "away_score" : 0,
+  "match_status" : "available",
+  "match_status_360" : "available",
+  "last_updated" : "2025-10-29T01:55:52.533166",
+  "last_updated_360" : "2025-10-29T01:57:07.300419",
+  "metadata" : {
+    "data_version" : "1.1.0",
+    "shot_fidelity_version" : "2",
+    "xy_fidelity_version" : "2"
+  },
+  "match_week" : 1,
+  "competition_stage" : {
+    "id" : 10,
+    "name" : "Group Stage"
+  },
+  "stadium" : {
+    "id" : 2,
+    "name" : "Old Trafford",
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  },
+  "referee" : {
+    "id" : 960,
+    "name" : "Marta Huerta de Aza",
+    "country" : {
+      "id" : 214,
+      "name" : "Spain"
+    }
+  }
+} ]
