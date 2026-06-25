@@ -1,0 +1,30 @@
+{
+  "query": "Jonas Martin",
+  "candidates": [
+    {
+      "name": "Jonas Martin",
+      "url": "https://www.transfermarkt.com/jonas-martin/profil/spieler/127142",
+      "tm_id": "127142"
+    },
+    {
+      "name": "Jonas Martin",
+      "url": "https://www.transfermarkt.com/jonas-martin/profil/spieler/192682",
+      "tm_id": "192682"
+    },
+    {
+      "name": "Jonas Langeland",
+      "url": "https://www.transfermarkt.com/jonas-langeland/profil/spieler/230329",
+      "tm_id": "230329"
+    },
+    {
+      "name": "Jonas Martin",
+      "url": "https://www.transfermarkt.com/jonas-martin/profil/spieler/694873",
+      "tm_id": "694873"
+    },
+    {
+      "name": "Jonas Martinsen",
+      "url": "https://www.transfermarkt.com/jonas-martinsen/profil/spieler/1245683",
+      "tm_id": "1245683"
+    }
+  ]
+}

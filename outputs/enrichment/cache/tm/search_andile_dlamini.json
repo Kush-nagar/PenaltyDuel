@@ -1,0 +1,25 @@
+{
+  "query": "Andile Dlamini",
+  "candidates": [
+    {
+      "name": "Sandile Dlamini",
+      "url": "https://www.transfermarkt.com/sandile-dlamini/profil/spieler/334099",
+      "tm_id": "334099"
+    },
+    {
+      "name": "Jeffrey Dlamini",
+      "url": "https://www.transfermarkt.com/jeffrey-dlamini/profil/spieler/419646",
+      "tm_id": "419646"
+    },
+    {
+      "name": "Wandile Dlamini",
+      "url": "https://www.transfermarkt.com/wandile-dlamini/profil/spieler/581593",
+      "tm_id": "581593"
+    },
+    {
+      "name": "Bandile Dlamini",
+      "url": "https://www.transfermarkt.com/bandile-dlamini/profil/spieler/1056267",
+      "tm_id": "1056267"
+    }
+  ]
+}

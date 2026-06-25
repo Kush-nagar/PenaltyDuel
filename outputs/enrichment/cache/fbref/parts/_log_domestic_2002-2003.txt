@@ -1,0 +1,303 @@
+[06/25/26 09:14:59] INFO     No custom team name replacements     _config.py:92
+                             found. You can configure these in                 
+                             C:\Users\kushn\soccerdata\config\tea              
+                             mname_replacements.json.                          
+                    INFO     No custom league dict found. You    _config.py:190
+                             can configure additional leagues in               
+                             C:\Users\kushn\soccerdata\config\le               
+                             ague_dict.json.                                   
+                    INFO     Saving cached data to               _common.py:250
+                             D:\Coding\Soccer\outputs\enrichment               
+                             \cache\fbref                                      
+[06/25/26 09:15:04] INFO     Saving cached data to               _common.py:250
+                             D:\Coding\Soccer\outputs\enrichment               
+                             \cache\fbref                                      
+[06/25/26 09:16:15] ERROR    Error while scraping                _common.py:623
+                             https://fbref.com/en/comps/Big5/200               
+                             2-2003/misc/players/2002-2003-Big-5               
+                             -European-Leagues-Stats. Retrying                 
+                             in 0 seconds... (attempt 1 of 5).                 
+                             Traceback (most recent call last):                
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connection.py",                 
+                             line 204, in _new_conn                            
+                                 sock =                                        
+                             connection.create_connection(                     
+                                     (self._dns_host,                          
+                             self.port),                                       
+                                 ...<2 lines>...                               
+                                     socket_options=self.socket_               
+                             options,                                          
+                                 )                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\util\connection.p               
+                             y", line 85, in create_connection                 
+                                 raise err                                     
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\util\connection.p               
+                             y", line 73, in create_connection                 
+                                 sock.connect(sa)                              
+                                 ~~~~~~~~~~~~^^^^                              
+                             ConnectionRefusedError: [WinError                 
+                             10061] No connection could be made                
+                             because the target machine actively               
+                             refused it                                        
+                                                                               
+                             The above exception was the direct                
+                             cause of the following exception:                 
+                                                                               
+                             Traceback (most recent call last):                
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connectionpool.py               
+                             ", line 788, in urlopen                           
+                                 response = self._make_request(                
+                                     conn,                                     
+                                 ...<10 lines>...                              
+                                     **response_kw,                            
+                                 )                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connectionpool.py               
+                             ", line 493, in _make_request                     
+                                 conn.request(                                 
+                                 ~~~~~~~~~~~~^                                 
+                                     method,                                   
+                                     ^^^^^^^                                   
+                                 ...<6 lines>...                               
+                                     enforce_content_length=enfo               
+                             rce_content_length,                               
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^               
+                             ^^^^^^^^^^^^^^^^^^^                               
+                                 )                                             
+                                 ^                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connection.py",                 
+                             line 500, in request                              
+                                 self.endheaders()                             
+                                 ~~~~~~~~~~~~~~~^^                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\http               
+                             \client.py", line 1353, in                        
+                             endheaders                                        
+                                 self._send_output(message_body,               
+                             encode_chunked=encode_chunked)                    
+                                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^               
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                   
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\http               
+                             \client.py", line 1113, in                        
+                             _send_output                                      
+                                 self.send(msg)                                
+                                 ~~~~~~~~~^^^^^                                
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\http               
+                             \client.py", line 1057, in send                   
+                                 self.connect()                                
+                                 ~~~~~~~~~~~~^^                                
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connection.py",                 
+                             line 331, in connect                              
+                                 self.sock = self._new_conn()                  
+                                             ~~~~~~~~~~~~~~^^                  
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connection.py",                 
+                             line 219, in _new_conn                            
+                                 raise NewConnectionError(                     
+                                     self, f"Failed to establish               
+                             a new connection: {e}"                            
+                                 ) from e                                      
+                             urllib3.exceptions.NewConnectionErr               
+                             or:                                               
+                             HTTPConnection(host='localhost',                  
+                             port=52437): Failed to establish a                
+                             new connection: [WinError 10061] No               
+                             connection could be made because                  
+                             the target machine actively refused               
+                             it                                                
+                                                                               
+                             The above exception was the direct                
+                             cause of the following exception:                 
+                                                                               
+                             Traceback (most recent call last):                
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\soccerdata\_common.py",                 
+                             line 603, in _download_and_save                   
+                                 self._driver.get(url)                         
+                                 ~~~~~~~~~~~~~~~~^^^^^                         
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\seleniumbase\core\browser               
+                             _launcher.py", line 5883, in                      
+                             <lambda>                                          
+                                 driver.get = lambda url:                      
+                             uc_special_open_if_cf(                            
+                                                          ~~~~~~               
+                             ~~~~~~~~~~~~~~~^                                  
+                                     driver,                                   
+                                     ^^^^^^^                                   
+                                 ...<5 lines>...                               
+                                     device_pixel_ratio,                       
+                                     ^^^^^^^^^^^^^^^^^^^                       
+                                 )                                             
+                                 ^                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\seleniumbase\core\browser               
+                             _launcher.py", line 544, in                       
+                             uc_special_open_if_cf                             
+                                 driver,                                       
+                             driver.window_handles[-1], 2                      
+                                         ^^^^^^^^^^^^^^^^^^^^^                 
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\seleniumbase\undetected\_               
+                             _init__.py", line 357, in                         
+                             __getattribute__                                  
+                                 return                                        
+                             super().__getattribute__(item)                    
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~               
+                             ^^^^^^                                            
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\selenium\webdriver\remote               
+                             \webdriver.py", line 662, in                      
+                             window_handles                                    
+                                 return                                        
+                             self.execute(Command.W3C_GET_WINDOW               
+                             _HANDLES)["value"]                                
+                                        ~~~~~~~~~~~~^^^^^^^^^^^^               
+                             ^^^^^^^^^^^^^^^^^^^^                              
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\selenium\webdriver\remote               
+                             \webdriver.py", line 489, in                      
+                             execute                                           
+                                 response =                                    
+                             cast(RemoteConnection,                            
+                             self.command_executor).execute(driv               
+                             er_command, params)                               
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\selenium\webdriver\remote               
+                             \remote_connection.py", line 407,                 
+                             in execute                                        
+                                 return                                        
+                             self._request(command_info[0], url,               
+                             body=data)                                        
+                                        ~~~~~~~~~~~~~^^^^^^^^^^^               
+                             ^^^^^^^^^^^^^^^^^^^^^^                            
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\selenium\webdriver\remote               
+                             \remote_connection.py", line 431,                 
+                             in _request                                       
+                                 response =                                    
+                             self._conn.request(method, url,                   
+                             body=body, headers=headers,                       
+                             timeout=self._client_config.timeout               
+                             )                                                 
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\_request_methods.               
+                             py", line 135, in request                         
+                                 return self.request_encode_url(               
+                                        ~~~~~~~~~~~~~~~~~~~~~~~^               
+                                     method,                                   
+                                     ^^^^^^^                                   
+                                 ...<3 lines>...                               
+                                     **urlopen_kw,                             
+                                     ^^^^^^^^^^^^^                             
+                                 )                                             
+                                 ^                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\_request_methods.               
+                             py", line 182, in                                 
+                             request_encode_url                                
+                                 return self.urlopen(method,                   
+                             url, **extra_kw)                                  
+                                        ~~~~~~~~~~~~^^^^^^^^^^^^               
+                             ^^^^^^^^^^^^^                                     
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\poolmanager.py",                
+                             line 457, in urlopen                              
+                                 response = conn.urlopen(method,               
+                             u.request_uri, **kw)                              
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connectionpool.py               
+                             ", line 872, in urlopen                           
+                                 return self.urlopen(                          
+                                        ~~~~~~~~~~~~^                          
+                                     method,                                   
+                                     ^^^^^^^                                   
+                                 ...<13 lines>...                              
+                                     **response_kw,                            
+                                     ^^^^^^^^^^^^^^                            
+                                 )                                             
+                                 ^                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connectionpool.py               
+                             ", line 872, in urlopen                           
+                                 return self.urlopen(                          
+                                        ~~~~~~~~~~~~^                          
+                                     method,                                   
+                                     ^^^^^^^                                   
+                                 ...<13 lines>...                              
+                                     **response_kw,                            
+                                     ^^^^^^^^^^^^^^                            
+                                 )                                             
+                                 ^                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connectionpool.py               
+                             ", line 872, in urlopen                           
+                                 return self.urlopen(                          
+                                        ~~~~~~~~~~~~^                          
+                                     method,                                   
+                                     ^^^^^^^                                   
+                                 ...<13 lines>...                              
+                                     **response_kw,                            
+                                     ^^^^^^^^^^^^^^                            
+                                 )                                             
+                                 ^                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\connectionpool.py               
+                             ", line 842, in urlopen                           
+                                 retries = retries.increment(                  
+                                     method, url, error=new_e,                 
+                             _pool=self,                                       
+                             _stacktrace=sys.exc_info()[2]                     
+                                 )                                             
+                               File                                            
+                             "C:\Users\kushn\miniconda3\Lib\site               
+                             -packages\urllib3\util\retry.py",                 
+                             line 543, in increment                            
+                                 raise MaxRetryError(_pool, url,               
+                             reason) from reason  # type: ignore               
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^               
+                             ^^^^^^^^^^^^^^^^^^^^                              
+                             urllib3.exceptions.MaxRetryError:                 
+                             HTTPConnectionPool(host='localhost'               
+                             , port=52437): Max retries exceeded               
+                             with url:                                         
+                             /session/a38bd73001df48c894ac7e2967               
+                             cbaa74/window/handles (Caused by                  
+                             NewConnectionError("HTTPConnection(               
+                             host='localhost', port=52437):                    
+                             Failed to establish a new                         
+                             connection: [WinError 10061] No                   
+                             connection could be made because                  
+                             the target machine actively refused               
+                             it"))                                             

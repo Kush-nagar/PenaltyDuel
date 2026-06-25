@@ -1,0 +1,20 @@
+{
+  "query": "Axel Werner",
+  "candidates": [
+    {
+      "name": "Axel Werner",
+      "url": "https://www.transfermarkt.com/axel-werner/profil/spieler/236734",
+      "tm_id": "236734"
+    },
+    {
+      "name": "Axel Werner",
+      "url": "https://www.transfermarkt.com/axel-werner/profil/spieler/257191",
+      "tm_id": "257191"
+    },
+    {
+      "name": "Axel Petersen",
+      "url": "https://www.transfermarkt.com/axel-petersen/profil/spieler/1005144",
+      "tm_id": "1005144"
+    }
+  ]
+}

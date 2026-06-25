@@ -1,0 +1,20 @@
+{
+  "query": "Naveen Kumar",
+  "candidates": [
+    {
+      "name": "Naveen Kumar",
+      "url": "https://www.transfermarkt.com/naveen-kumar/profil/spieler/481160",
+      "tm_id": "481160"
+    },
+    {
+      "name": "Sudhakaran Kumar",
+      "url": "https://www.transfermarkt.com/sudhakaran-kumar/profil/spieler/649921",
+      "tm_id": "649921"
+    },
+    {
+      "name": "Kuppili Naveen Kumar",
+      "url": "https://www.transfermarkt.com/kuppili-naveen-kumar/profil/spieler/758106",
+      "tm_id": "758106"
+    }
+  ]
+}

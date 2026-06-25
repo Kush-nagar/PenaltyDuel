@@ -1,0 +1,20 @@
+{
+  "query": "Luca Toni",
+  "candidates": [
+    {
+      "name": "Luca Toni",
+      "url": "https://www.transfermarkt.com/luca-toni/profil/spieler/5980",
+      "tm_id": "5980"
+    },
+    {
+      "name": "Luca Tonin",
+      "url": "https://www.transfermarkt.com/luca-tonin/profil/spieler/703042",
+      "tm_id": "703042"
+    },
+    {
+      "name": "Luca Schroer",
+      "url": "https://www.transfermarkt.com/luca-schroer/profil/spieler/1162411",
+      "tm_id": "1162411"
+    }
+  ]
+}

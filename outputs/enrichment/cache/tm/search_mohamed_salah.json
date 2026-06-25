@@ -1,0 +1,55 @@
+{
+  "query": "Mohamed Salah",
+  "candidates": [
+    {
+      "name": "Mohamed Salah",
+      "url": "https://www.transfermarkt.com/mohamed-salah/profil/spieler/148455",
+      "tm_id": "148455"
+    },
+    {
+      "name": "Mohamed Salah",
+      "url": "https://www.transfermarkt.com/mohamed-salah/profil/spieler/1018201",
+      "tm_id": "1018201"
+    },
+    {
+      "name": "Mohamed Salah Mehal",
+      "url": "https://www.transfermarkt.com/mohamed-salah-mehal/profil/spieler/1004948",
+      "tm_id": "1004948"
+    },
+    {
+      "name": "Mohamed Salah Jedidi",
+      "url": "https://www.transfermarkt.com/mohamed-salah-jedidi/profil/spieler/770153",
+      "tm_id": "770153"
+    },
+    {
+      "name": "Mohamed Salah Abdennouri",
+      "url": "https://www.transfermarkt.com/mohamed-salah-abdennouri/profil/spieler/770435",
+      "tm_id": "770435"
+    },
+    {
+      "name": "Mohamed Salah Meftah",
+      "url": "https://www.transfermarkt.com/mohamed-salah-meftah/profil/spieler/772385",
+      "tm_id": "772385"
+    },
+    {
+      "name": "Mohamed Salah Bentouil",
+      "url": "https://www.transfermarkt.com/mohamed-salah-bentouil/profil/spieler/773753",
+      "tm_id": "773753"
+    },
+    {
+      "name": "Mohamed Salah Kefi",
+      "url": "https://www.transfermarkt.com/mohamed-salah-kefi/profil/spieler/774452",
+      "tm_id": "774452"
+    },
+    {
+      "name": "Mohamed Salah",
+      "url": "https://www.transfermarkt.com/mohamed-salah/profil/spieler/802781",
+      "tm_id": "802781"
+    },
+    {
+      "name": "Mohamed Salah Eldin",
+      "url": "https://www.transfermarkt.com/mohamed-salah-eldin/profil/spieler/832401",
+      "tm_id": "832401"
+    }
+  ]
+}

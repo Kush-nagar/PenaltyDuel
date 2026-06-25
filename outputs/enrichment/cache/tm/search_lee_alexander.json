@@ -1,0 +1,20 @@
+{
+  "query": "Lee Alexander",
+  "candidates": [
+    {
+      "name": "Lee Barrow",
+      "url": "https://www.transfermarkt.com/lee-barrow/profil/spieler/638784",
+      "tm_id": "638784"
+    },
+    {
+      "name": "Lee Andonaire",
+      "url": "https://www.transfermarkt.com/lee-andonaire/profil/spieler/94481",
+      "tm_id": "94481"
+    },
+    {
+      "name": "Lee Jones",
+      "url": "https://www.transfermarkt.com/lee-jones/profil/spieler/1512292",
+      "tm_id": "1512292"
+    }
+  ]
+}

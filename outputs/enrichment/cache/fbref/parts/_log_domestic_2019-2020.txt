@@ -1,0 +1,15 @@
+[06/25/26 09:27:49] INFO     No custom team name replacements     _config.py:92
+                             found. You can configure these in                 
+                             C:\Users\kushn\soccerdata\config\tea              
+                             mname_replacements.json.                          
+                    INFO     No custom league dict found. You    _config.py:190
+                             can configure additional leagues in               
+                             C:\Users\kushn\soccerdata\config\le               
+                             ague_dict.json.                                   
+                    INFO     Saving cached data to               _common.py:250
+                             D:\Coding\Soccer\outputs\enrichment               
+                             \cache\fbref                                      
+[06/25/26 09:28:08] INFO     Saving cached data to               _common.py:250
+                             D:\Coding\Soccer\outputs\enrichment               
+                             \cache\fbref                                      
+WORKER_DONE domestic 2019-2020 career=2732 foot=0

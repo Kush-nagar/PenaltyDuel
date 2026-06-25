@@ -1,0 +1,40 @@
+{
+  "query": "Maria López",
+  "candidates": [
+    {
+      "name": "Luis López Rekarte",
+      "url": "https://www.transfermarkt.com/luis-lopez-rekarte/profil/spieler/159966",
+      "tm_id": "159966"
+    },
+    {
+      "name": "José María López Silva",
+      "url": "https://www.transfermarkt.com/jose-maria-lopez-silva/profil/spieler/73076",
+      "tm_id": "73076"
+    },
+    {
+      "name": "Josema",
+      "url": "https://www.transfermarkt.com/josema/profil/spieler/187834",
+      "tm_id": "187834"
+    },
+    {
+      "name": "José María López",
+      "url": "https://www.transfermarkt.com/jose-maria-lopez/profil/spieler/253944",
+      "tm_id": "253944"
+    },
+    {
+      "name": "Chus López",
+      "url": "https://www.transfermarkt.com/chus-lopez/profil/spieler/71127",
+      "tm_id": "71127"
+    },
+    {
+      "name": "Jesús María López Calahorrano",
+      "url": "https://www.transfermarkt.com/jesus-maria-lopez-calahorrano/profil/spieler/651576",
+      "tm_id": "651576"
+    },
+    {
+      "name": "Jesús López",
+      "url": "https://www.transfermarkt.com/jesus-lopez/profil/spieler/960481",
+      "tm_id": "960481"
+    }
+  ]
+}

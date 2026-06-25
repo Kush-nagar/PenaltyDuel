@@ -1,0 +1,20 @@
+{
+  "query": "Luka Modrić",
+  "candidates": [
+    {
+      "name": "Luka Modrić",
+      "url": "https://www.transfermarkt.com/luka-modric/profil/spieler/27992",
+      "tm_id": "27992"
+    },
+    {
+      "name": "Tai Luka Modric",
+      "url": "https://www.transfermarkt.com/tai-luka-modric/profil/spieler/1399324",
+      "tm_id": "1399324"
+    },
+    {
+      "name": "Luka Modric",
+      "url": "https://www.transfermarkt.com/luka-modric/profil/spieler/473723",
+      "tm_id": "473723"
+    }
+  ]
+}

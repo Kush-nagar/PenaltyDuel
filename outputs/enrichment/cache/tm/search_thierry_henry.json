@@ -1,0 +1,20 @@
+{
+  "query": "Thierry Henry",
+  "candidates": [
+    {
+      "name": "Thierry Henry",
+      "url": "https://www.transfermarkt.com/thierry-henry/profil/spieler/3207",
+      "tm_id": "3207"
+    },
+    {
+      "name": "Thierry Henry",
+      "url": "https://www.transfermarkt.com/thierry-henry/profil/spieler/1028277",
+      "tm_id": "1028277"
+    },
+    {
+      "name": "Thierry Henry",
+      "url": "https://www.transfermarkt.com/thierry-henry/profil/spieler/1220070",
+      "tm_id": "1220070"
+    }
+  ]
+}

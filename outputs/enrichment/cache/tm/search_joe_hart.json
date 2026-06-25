@@ -1,0 +1,15 @@
+{
+  "query": "Joe Hart",
+  "candidates": [
+    {
+      "name": "Joe Hart",
+      "url": "https://www.transfermarkt.com/joe-hart/profil/spieler/40204",
+      "tm_id": "40204"
+    },
+    {
+      "name": "Joe Hartwig",
+      "url": "https://www.transfermarkt.com/joe-hartwig/profil/spieler/822145",
+      "tm_id": "822145"
+    }
+  ]
+}

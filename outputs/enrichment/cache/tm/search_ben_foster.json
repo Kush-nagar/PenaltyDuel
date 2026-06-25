@@ -1,0 +1,15 @@
+{
+  "query": "Ben Foster",
+  "candidates": [
+    {
+      "name": "Ben Foster",
+      "url": "https://www.transfermarkt.com/ben-foster/profil/spieler/13572",
+      "tm_id": "13572"
+    },
+    {
+      "name": "Ben Foster",
+      "url": "https://www.transfermarkt.com/ben-foster/profil/spieler/897033",
+      "tm_id": "897033"
+    }
+  ]
+}

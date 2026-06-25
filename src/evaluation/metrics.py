@@ -182,6 +182,132 @@ def binary_classification_metrics(
     }
 
 
+def multiclass_log_loss(
+    y_true: Sequence[object],
+    probs: np.ndarray,
+    classes: Sequence[object],
+) -> float:
+    """Mean negative log probability assigned to the true class."""
+    prob_matrix = np.clip(np.asarray(probs, dtype=float), EPSILON, 1 - EPSILON)
+    if prob_matrix.shape[1] != len(classes):
+        raise ValueError("probs columns must match classes")
+    class_index = {label: i for i, label in enumerate(classes)}
+    losses = []
+    for row, label in zip(prob_matrix, y_true):
+        if label not in class_index:
+            continue
+        losses.append(-np.log(row[class_index[label]]))
+    if not losses:
+        raise ValueError("no true labels found in classes")
+    return float(np.mean(losses))
+
+
+def top_k_accuracy(
+    y_true: Sequence[object],
+    probs: np.ndarray,
+    classes: Sequence[object],
+    *,
+    k: int = 1,
+) -> float:
+    """Fraction of rows where the true class is among the top-k predictions."""
+    prob_matrix = np.asarray(probs, dtype=float)
+    class_list = list(classes)
+    hits = []
+    for row, label in zip(prob_matrix, y_true):
+        if label not in class_list:
+            continue
+        top_idx = np.argsort(-row, kind="mergesort")[:k]
+        top_labels = {class_list[i] for i in top_idx}
+        hits.append(label in top_labels)
+    if not hits:
+        raise ValueError("no true labels found in classes")
+    return float(np.mean(hits))
+
+
+def macro_f1(
+    y_true: Sequence[object],
+    y_pred: Sequence[object],
+    classes: Sequence[object],
+) -> float:
+    """Unweighted mean of per-class F1 scores."""
+    true = list(y_true)
+    pred = list(y_pred)
+    if len(true) != len(pred):
+        raise ValueError("y_true and y_pred must have the same length")
+
+    f1s = []
+    for label in classes:
+        tp = sum(1 for t, p in zip(true, pred) if t == label and p == label)
+        fp = sum(1 for t, p in zip(true, pred) if t != label and p == label)
+        fn = sum(1 for t, p in zip(true, pred) if t == label and p != label)
+        precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+        f1 = (
+            2 * precision * recall / (precision + recall)
+            if (precision + recall) > 0
+            else 0.0
+        )
+        f1s.append(f1)
+    return float(np.mean(f1s)) if f1s else float("nan")
+
+
+def _rankdata(values: np.ndarray) -> np.ndarray:
+    """Average ranks, ties shared (1-based)."""
+    order = np.argsort(values, kind="mergesort")
+    ranks = np.empty(len(values), dtype=float)
+    sorted_vals = values[order]
+    i = 0
+    n = len(values)
+    while i < n:
+        j = i
+        while j + 1 < n and sorted_vals[j + 1] == sorted_vals[i]:
+            j += 1
+        avg_rank = (i + j) / 2 + 1
+        for k in range(i, j + 1):
+            ranks[order[k]] = avg_rank
+        i = j + 1
+    return ranks
+
+
+def spearman_corr(x: Sequence[float], y: Sequence[float]) -> float:
+    """Spearman rank correlation."""
+    xa = np.asarray(x, dtype=float)
+    ya = np.asarray(y, dtype=float)
+    if len(xa) != len(ya):
+        raise ValueError("x and y must have the same length")
+    if len(xa) < 2:
+        return float("nan")
+    rx = _rankdata(xa)
+    ry = _rankdata(ya)
+    if np.std(rx) == 0 or np.std(ry) == 0:
+        return float("nan")
+    return float(np.corrcoef(rx, ry)[0, 1])
+
+
+def kendall_tau(x: Sequence[float], y: Sequence[float]) -> float:
+    """Kendall's tau-a (concordant minus discordant over all pairs)."""
+    xa = np.asarray(x, dtype=float)
+    ya = np.asarray(y, dtype=float)
+    if len(xa) != len(ya):
+        raise ValueError("x and y must have the same length")
+    n = len(xa)
+    if n < 2:
+        return float("nan")
+    concordant = 0
+    discordant = 0
+    for i in range(n):
+        for j in range(i + 1, n):
+            sign = np.sign(xa[i] - xa[j]) * np.sign(ya[i] - ya[j])
+            if sign > 0:
+                concordant += 1
+            elif sign < 0:
+                discordant += 1
+    total = concordant + discordant
+    if total == 0:
+        return float("nan")
+    return float((concordant - discordant) / total)
+
+
 def format_metric(value: float, digits: int = 4) -> str:
     """Format metric values for markdown reports."""
     if value is None or math.isnan(float(value)):

@@ -1,0 +1,15 @@
+{
+  "query": "Kevin Trapp",
+  "candidates": [
+    {
+      "name": "Kevin Trapp",
+      "url": "https://www.transfermarkt.com/kevin-trapp/profil/spieler/45672",
+      "tm_id": "45672"
+    },
+    {
+      "name": "Kevin Blume",
+      "url": "https://www.transfermarkt.com/kevin-blume/profil/spieler/94268",
+      "tm_id": "94268"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "query": "Lasse Schöne",
+  "candidates": [
+    {
+      "name": "Lasse Schöne",
+      "url": "https://www.transfermarkt.com/lasse-schone/profil/spieler/34784",
+      "tm_id": "34784"
+    },
+    {
+      "name": "Lasse Schönewolf",
+      "url": "https://www.transfermarkt.com/lasse-schonewolf/profil/spieler/1452350",
+      "tm_id": "1452350"
+    }
+  ]
+}

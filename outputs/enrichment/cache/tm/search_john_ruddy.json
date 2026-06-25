@@ -1,0 +1,15 @@
+{
+  "query": "John Ruddy",
+  "candidates": [
+    {
+      "name": "John Ruddy",
+      "url": "https://www.transfermarkt.com/john-ruddy/profil/spieler/29712",
+      "tm_id": "29712"
+    },
+    {
+      "name": "Jack Ruddy",
+      "url": "https://www.transfermarkt.com/jack-ruddy/profil/spieler/346175",
+      "tm_id": "346175"
+    }
+  ]
+}

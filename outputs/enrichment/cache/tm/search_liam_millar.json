@@ -1,0 +1,20 @@
+{
+  "query": "Liam Millar",
+  "candidates": [
+    {
+      "name": "Liam Millar",
+      "url": "https://www.transfermarkt.com/liam-millar/profil/spieler/487417",
+      "tm_id": "487417"
+    },
+    {
+      "name": "Paul Millar",
+      "url": "https://www.transfermarkt.com/paul-millar/profil/spieler/751574",
+      "tm_id": "751574"
+    },
+    {
+      "name": "Billy Millar",
+      "url": "https://www.transfermarkt.com/billy-millar/profil/spieler/1017087",
+      "tm_id": "1017087"
+    }
+  ]
+}

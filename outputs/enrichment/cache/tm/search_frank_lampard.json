@@ -1,0 +1,15 @@
+{
+  "query": "Frank Lampard",
+  "candidates": [
+    {
+      "name": "Frank Lampard",
+      "url": "https://www.transfermarkt.com/frank-lampard/profil/spieler/3163",
+      "tm_id": "3163"
+    },
+    {
+      "name": "Frank Lampard",
+      "url": "https://www.transfermarkt.com/frank-lampard/profil/spieler/250898",
+      "tm_id": "250898"
+    }
+  ]
+}

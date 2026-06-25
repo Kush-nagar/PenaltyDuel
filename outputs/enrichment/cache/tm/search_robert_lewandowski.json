@@ -1,0 +1,15 @@
+{
+  "query": "Robert Lewandowski",
+  "candidates": [
+    {
+      "name": "Robert Lewandowski",
+      "url": "https://www.transfermarkt.com/robert-lewandowski/profil/spieler/38253",
+      "tm_id": "38253"
+    },
+    {
+      "name": "Robert Lewandowski",
+      "url": "https://www.transfermarkt.com/robert-lewandowski/profil/spieler/259054",
+      "tm_id": "259054"
+    }
+  ]
+}

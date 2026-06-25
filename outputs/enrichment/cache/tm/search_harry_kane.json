@@ -1,0 +1,10 @@
+{
+  "query": "Harry Kane",
+  "candidates": [
+    {
+      "name": "Harry Kane",
+      "url": "https://www.transfermarkt.com/harry-kane/profil/spieler/132098",
+      "tm_id": "132098"
+    }
+  ]
+}

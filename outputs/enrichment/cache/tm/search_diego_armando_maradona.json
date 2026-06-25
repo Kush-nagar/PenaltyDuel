@@ -1,0 +1,15 @@
+{
+  "query": "Diego Armando Maradona",
+  "candidates": [
+    {
+      "name": "Diego Maradona",
+      "url": "https://www.transfermarkt.com/diego-maradona/profil/spieler/8024",
+      "tm_id": "8024"
+    },
+    {
+      "name": "Diego Maradona Jr.",
+      "url": "https://www.transfermarkt.com/diego-maradona-jr-/profil/spieler/93331",
+      "tm_id": "93331"
+    }
+  ]
+}

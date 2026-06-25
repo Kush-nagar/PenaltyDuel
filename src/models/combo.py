@@ -34,8 +34,13 @@ def _logit(p: np.ndarray | pd.Series) -> np.ndarray:
     return np.log(arr / (1 - arr))
 
 
-def build_combo_features(df: pd.DataFrame, *, global_rate: float) -> np.ndarray:
-    """Construct the log-odds feature matrix for the combined model."""
+def build_combo_features(
+    df: pd.DataFrame,
+    *,
+    global_rate: float,
+    features: list[str] | None = None,
+) -> np.ndarray:
+    """Construct the log-odds feature matrix, optionally restricted to a subset."""
     required = [
         "shooter_conv_rate_shrunk",
         "keeper_save_rate_shrunk",
@@ -49,16 +54,24 @@ def build_combo_features(df: pd.DataFrame, *, global_rate: float) -> np.ndarray:
         raise KeyError(f"missing combo feature columns: {missing}")
 
     global_logit = _logit(np.array([global_rate]))[0]
-    shooter_offset = _logit(df["shooter_conv_rate_shrunk"]) - global_logit
-    keeper_concede = _logit(1 - df["keeper_save_rate_shrunk"].to_numpy()) - global_logit
-    entropy = df["shooter_zone_entropy"].fillna(0).to_numpy(dtype=float)
-    shootout = df["is_shootout"].astype(float).to_numpy()
-    log_pens = np.log1p(df["shooter_n_pens_before"].fillna(0).to_numpy(dtype=float))
-    log_faced = np.log1p(df["keeper_n_faced_before"].fillna(0).to_numpy(dtype=float))
-
-    return np.column_stack(
-        [shooter_offset, keeper_concede, entropy, shootout, log_pens, log_faced]
-    )
+    columns = {
+        "shooter_logodds_offset": _logit(df["shooter_conv_rate_shrunk"]) - global_logit,
+        "keeper_concede_logodds_offset": _logit(1 - df["keeper_save_rate_shrunk"].to_numpy())
+        - global_logit,
+        "shooter_zone_entropy": df["shooter_zone_entropy"].fillna(0).to_numpy(dtype=float),
+        "is_shootout": df["is_shootout"].astype(float).to_numpy(),
+        "log1p_shooter_n_pens": np.log1p(
+            df["shooter_n_pens_before"].fillna(0).to_numpy(dtype=float)
+        ),
+        "log1p_keeper_n_faced": np.log1p(
+            df["keeper_n_faced_before"].fillna(0).to_numpy(dtype=float)
+        ),
+    }
+    names = features if features is not None else COMBO_FEATURE_NAMES
+    unknown = [name for name in names if name not in columns]
+    if unknown:
+        raise KeyError(f"unknown combo features: {unknown}")
+    return np.column_stack([columns[name] for name in names])
 
 
 @dataclass
@@ -74,6 +87,7 @@ def train_combined_model(
     *,
     C: float = 1.0,
     global_rate: float | None = None,
+    feature_names: list[str] | None = None,
 ) -> CombinedOutcomeModel:
     """Fit the regularized log-odds logistic combination."""
     if "outcome_bin" not in train_df.columns:
@@ -86,18 +100,21 @@ def train_combined_model(
     if len(np.unique(y)) < 2:
         raise ValueError("training data must contain both outcome classes")
 
-    X = build_combo_features(train_df, global_rate=global_rate)
+    names = list(feature_names) if feature_names is not None else list(COMBO_FEATURE_NAMES)
+    if not names:
+        raise ValueError("feature_names must not be empty")
+    X = build_combo_features(train_df, global_rate=global_rate, features=names)
     estimator = LogisticRegression(C=C, max_iter=2000, solver="lbfgs")
     estimator.fit(X, y)
     return CombinedOutcomeModel(
         estimator=estimator,
         global_rate=global_rate,
-        feature_names=list(COMBO_FEATURE_NAMES),
+        feature_names=names,
     )
 
 
 def predict_combined_proba(model: CombinedOutcomeModel, df: pd.DataFrame) -> np.ndarray:
     """Predict goal probability from the combined model."""
-    X = build_combo_features(df, global_rate=model.global_rate)
+    X = build_combo_features(df, global_rate=model.global_rate, features=model.feature_names)
     probs = model.estimator.predict_proba(X)[:, 1]
     return np.clip(np.asarray(probs, dtype=float), EPS, 1 - EPS)

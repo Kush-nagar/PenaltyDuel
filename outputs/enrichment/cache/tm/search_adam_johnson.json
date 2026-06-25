@@ -1,0 +1,15 @@
+{
+  "query": "Adam Johnson",
+  "candidates": [
+    {
+      "name": "Adam Johnson",
+      "url": "https://www.transfermarkt.com/adam-johnson/profil/spieler/31579",
+      "tm_id": "31579"
+    },
+    {
+      "name": "Adam Johnson",
+      "url": "https://www.transfermarkt.com/adam-johnson/profil/spieler/734187",
+      "tm_id": "734187"
+    }
+  ]
+}

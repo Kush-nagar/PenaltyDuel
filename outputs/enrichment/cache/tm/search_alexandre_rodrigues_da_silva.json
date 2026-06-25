@@ -1,0 +1,15 @@
+{
+  "query": "Alexandre Rodrigues da Silva",
+  "candidates": [
+    {
+      "name": "Alexandre Pato",
+      "url": "https://www.transfermarkt.com/alexandre-pato/profil/spieler/37579",
+      "tm_id": "37579"
+    },
+    {
+      "name": "Marcos Silva",
+      "url": "https://www.transfermarkt.com/marcos-silva/profil/spieler/689345",
+      "tm_id": "689345"
+    }
+  ]
+}

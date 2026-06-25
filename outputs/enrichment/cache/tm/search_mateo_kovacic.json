@@ -1,0 +1,15 @@
+{
+  "query": "Mateo Kovačić",
+  "candidates": [
+    {
+      "name": "Mateo Kovacic",
+      "url": "https://www.transfermarkt.com/mateo-kovacic/profil/spieler/51471",
+      "tm_id": "51471"
+    },
+    {
+      "name": "Mateo Kovacic",
+      "url": "https://www.transfermarkt.com/mateo-kovacic/profil/spieler/249003",
+      "tm_id": "249003"
+    }
+  ]
+}
