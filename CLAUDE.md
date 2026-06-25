@@ -1,13 +1,13 @@
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-For more information adn context towards the project look inside the project_context_files folder (D:\Coding\Soccer\project_context_files) where there are multiple files which will help in understanding the project a bit more in depth and will answer most of the questions.
+For more information and context look inside the `context_files/` folder — multiple documents covering architecture, implementation plan, and StatsBomb workflow.
 
 ## Project
 
 **PenaltyDuel** — a hierarchical, explainable matchup prediction system for football penalty outcomes. Given a shooter and a goalkeeper, it predicts: goal probability (with calibrated uncertainty), shot placement (6-zone heatmap), keeper dive tendency, and a plain-language explanation card.
 
-Three reference documents live at the project root — read these before making architectural decisions:
+Three reference documents in `context_files/` — read these before making architectural decisions:
 - `penalty_shootout_predictor_blueprint.md` — full architecture, schema definitions, feature catalog, modeling strategy
 - `penalty_predictor_implementation_plan.md` — step-by-step build order, definition-of-done per step, common mistakes
 - `penalty_statsbomb_colab_workflow.md` — StatsBomb data schema details and the 9-step ingestion workflow
@@ -18,21 +18,30 @@ Three reference documents live at the project root — read these before making 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the data pipeline (Steps 1–3 of the plan: ingestion → cleaning → outputs)
+# Run the StatsBomb data pipeline (ingestion → cleaning → outputs)
 # Runtime: ~5 min. Writes to outputs/statsbomb/
-python pipelines/build_dataset.py
-
-# Run the pipeline with correct encoding on Windows
 PYTHONIOENCODING=utf-8 python pipelines/build_dataset.py
+
+# Run enrichment pipeline (FBref + Transfermarkt player attributes)
+# First full run: ~60 min (TM rate-limited). Resumable — re-run safely.
+python pipelines/enrich_players.py
+
+# Enrichment options:
+python pipelines/enrich_players.py --offline      # cache-only, instant (~30s)
+python pipelines/enrich_players.py --skip-fbref   # TM live + FBref from cache
+python pipelines/enrich_players.py --skip-tm      # FBref fetch only
 ```
 
 All commands run from the project root (`D:\Coding\Soccer`). No test runner or linter is configured yet.
 
 ## Architecture
 
-### Current state (Phase A complete)
+### Current state
 
-The data pipeline is built and the clean dataset exists. Modeling, serving, and frontend are not yet implemented.
+- **Steps 1–3 (StatsBomb pipeline):** Complete. Clean dataset at `outputs/statsbomb/`.
+- **Steps 4–7 (EDA, features, baselines, LightGBM model):** Complete. Model beats keeper-shrunk floor.
+- **Phase 2 (enrichment pipeline):** Complete. FBref + Transfermarkt data at `outputs/enrichment/`.
+- **Steps 8–11 (serving layer, frontend):** Not yet built.
 
 ### Dependency direction
 
@@ -42,6 +51,10 @@ conf/settings.py
 src/ingestion/statsbomb.py   ←─── src/cleaning/validate.py
     ↑
 pipelines/build_dataset.py
+    ↑
+pipelines/enrich_players.py  ←─── src/ingestion/fbref.py
+                             ←─── src/ingestion/transfermarkt.py
+                             ←─── src/enrichment/entity_resolution.py
 ```
 
 `conf/` and `src/` must be importable from the project root. `build_dataset.py` inserts `ROOT` into `sys.path` at startup.
@@ -70,14 +83,24 @@ data/                        # StatsBomb Open Data (read-only)
   events/{match_id}.json     # ~3,961 files, scanned for Shot+Penalty events
   lineups/{match_id}.json    # ~3,820 files, used to resolve keeper identity
 
-outputs/statsbomb/           # pipeline outputs (generated, not committed)
-  penalties_statsbomb_clean.parquet     ← USE THIS for all modeling
+outputs/statsbomb/           # StatsBomb pipeline outputs (generated, not committed)
+  penalties_statsbomb_clean.parquet
   penalties_statsbomb_with_freeze_frame.parquet
   matches_statsbomb.parquet
   lineups_statsbomb_penalty_matches.parquet
+
+outputs/enrichment/          # enrichment pipeline outputs (generated, not committed)
+  penalties_enriched.parquet          ← USE THIS for all modeling
+  player_attributes.parquet           # preferred_foot, dob, height per player
+  player_career_penalty_stats.parquet # FBref career PK counts per player-season
+  entity_resolution/
+    name_map.csv                      # StatsBomb → FBref/TM identity links
+    unresolved.csv                    # players needing human review
 ```
 
 **Current dataset stats:** 1,477 penalties · 772 shooters · 379 keepers · 21 competitions · 73.9% conversion rate.
+
+**Enrichment coverage:** 618/1,146 unique players have `preferred_foot` (53% shooters, 55% keepers) · 54,556 career PK stat rows · 734 high/medium entity matches · 402 unresolved.
 
 ### Critical schema facts
 
@@ -87,16 +110,17 @@ outputs/statsbomb/           # pipeline outputs (generated, not committed)
 - `is_shootout = (period == 5)` — StatsBomb convention, validated at pipeline runtime.
 - `shot_zone` is a 6-bin classification: `{low,high} × {left,center,right}` from the keeper's POV. Boundary constants live in `conf/settings.py`. Raw `(x,y)` coordinates are preserved for re-binning.
 
-### Next build steps (from the implementation plan)
+### Next build steps
 
-| Step | What to build | Key files |
-|------|--------------|-----------|
-| 4 | EDA notebook | `notebooks/01_eda.ipynb`, `src/viz/goalmouth.py` |
-| 5 | Shrinkage utils + as-of feature builder + leakage test | `src/features/shrinkage.py`, `src/features/as_of.py`, `src/features/build.py`, `tests/test_no_leakage.py` |
-| 6 | Baselines + evaluation framework | `src/models/baselines.py`, `src/evaluation/splitters.py`, `src/evaluation/metrics.py` |
-| 7 | LightGBM outcome model + calibration | `src/models/outcome_lgbm.py`, `src/models/calibration.py` |
-| 11 | FastAPI serving layer | `src/serving/predict.py`, `src/api/main.py` |
-| 10 | React dashboard | `frontend/` |
+| Step | Status | What to build | Key files |
+|------|--------|--------------|-----------|
+| 4 | ✅ Done | EDA notebook | `notebooks/01_eda.ipynb` |
+| 5 | ✅ Done | Shrinkage utils + as-of feature builder + leakage test | `src/features/` |
+| 6 | ✅ Done | Baselines + evaluation framework | `src/models/baselines.py`, `src/evaluation/` |
+| 7 | ✅ Done | LightGBM outcome model + calibration | `src/models/outcome_lgbm.py`, `src/models/calibration.py` |
+| 8 | **Next** | Retrain model on `penalties_enriched.parquet` with `preferred_foot` + `height_cm` features | `src/features/build.py` |
+| 11 | Todo | FastAPI serving layer | `src/serving/predict.py`, `src/api/main.py` |
+| 10 | Todo | React dashboard | `frontend/` |
 
 ### Evaluation rules
 
