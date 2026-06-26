@@ -39,6 +39,8 @@ from src.serving.predict import (
     DIVE_DIRS,
 )
 from src.enrichment.entity_resolution import normalize_name
+from src.explain.shap_wrap import build_explainer, explain_matchup
+from src.explain.cards import build_shap_card
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
@@ -54,6 +56,7 @@ class AppState:
     pipeline = None
     player_index: PlayerIndex | None = None
     metadata: dict = {}
+    shap_explainer = None
 
 state = AppState()
 
@@ -83,6 +86,10 @@ async def lifespan(app: FastAPI):
     n_s = len(state.player_index.shooters)
     n_k = len(state.player_index.keepers)
     print(f"Ready: {n_s} shooters, {n_k} keepers indexed.")
+
+    print("Building SHAP explainer...")
+    state.shap_explainer = build_explainer(state.pipeline.combined_model, mt)
+    print("SHAP explainer ready.")
     yield
     # Shutdown (nothing to clean up)
 
@@ -115,6 +122,25 @@ class ZoneProbability(BaseModel):
     goal_prob: float   # P(goal | this zone, keeper's dominant dive)
 
 
+class ShapFactor(BaseModel):
+    feature: str
+    label: str
+    shap_value: float
+    direction: str
+    pct_impact: float
+
+
+class ShapCard(BaseModel):
+    headline: str
+    confidence: str
+    low_data_warning: bool
+    low_data_note: str | None
+    shooter_summary: str
+    keeper_summary: str
+    top_factors: list[str]
+    factors: list[ShapFactor]
+
+
 class PredictResponse(BaseModel):
     goal_probability: float
     composed_probability: float
@@ -123,6 +149,7 @@ class PredictResponse(BaseModel):
     keeper: dict
     zone_distribution: list[ZoneProbability]
     dive_distribution: list[dict]
+    shap_card: ShapCard
 
 
 # ── Endpoints ─────────────────────────────────────────────────────────────────
@@ -213,6 +240,23 @@ def predict(req: PredictRequest):
 
     prediction: MatchupPrediction = predict_matchup(shooter, keeper, state.pipeline)
 
+    shap_factors = explain_matchup(state.shap_explainer, shooter, keeper, state.pipeline)
+    shap_card_data = build_shap_card(
+        shap_factors, shooter, keeper,
+        goal_prob=prediction.goal_probability,
+        global_rate=state.pipeline.combined_model.global_rate,
+    )
+    shap_card = ShapCard(
+        headline=shap_card_data["headline"],
+        confidence=shap_card_data["confidence"],
+        low_data_warning=shap_card_data["low_data_warning"],
+        low_data_note=shap_card_data["low_data_note"],
+        shooter_summary=shap_card_data["shooter_summary"],
+        keeper_summary=shap_card_data["keeper_summary"],
+        top_factors=shap_card_data["top_factors"],
+        factors=[ShapFactor(**f) for f in shap_card_data["factors"]],
+    )
+
     zone_dist = [
         ZoneProbability(
             zone=z,
@@ -249,4 +293,5 @@ def predict(req: PredictRequest):
         },
         zone_distribution=zone_dist,
         dive_distribution=dive_dist,
+        shap_card=shap_card,
     )
