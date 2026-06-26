@@ -53,6 +53,11 @@ def build_combo_features(
     if missing:
         raise KeyError(f"missing combo feature columns: {missing}")
 
+    def _col(name: str, default: float = 0.0) -> np.ndarray:
+        if name in df.columns:
+            return df[name].fillna(default).to_numpy(dtype=float)
+        return np.full(len(df), default, dtype=float)
+
     global_logit = _logit(np.array([global_rate]))[0]
     columns = {
         "shooter_logodds_offset": _logit(df["shooter_conv_rate_shrunk"]) - global_logit,
@@ -66,6 +71,12 @@ def build_combo_features(
         "log1p_keeper_n_faced": np.log1p(
             df["keeper_n_faced_before"].fillna(0).to_numpy(dtype=float)
         ),
+        "shooter_foot_is_right": _col("shooter_foot_is_right"),
+        "shooter_foot_missing": _col("shooter_preferred_foot_is_missing"),
+        "shooter_height_cm": _col("shooter_height_cm"),
+        "keeper_foot_is_right": _col("keeper_foot_is_right"),
+        "keeper_foot_missing": _col("keeper_preferred_foot_is_missing"),
+        "keeper_height_cm": _col("keeper_height_cm"),
     }
     names = features if features is not None else COMBO_FEATURE_NAMES
     unknown = [name for name in names if name not in columns]

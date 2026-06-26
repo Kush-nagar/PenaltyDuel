@@ -27,7 +27,7 @@ from src.models.combo import (
     train_combined_model,
 )
 from src.models.outcome_lgbm import predict_outcome_proba, train_outcome_model
-from src.models.resolution import compose_goal_prob, fit_resolution_table
+from src.models.resolution import compose_goal_prob, fit_dive_resolution_table, fit_resolution_table
 
 EPS = 1e-6
 
@@ -62,6 +62,7 @@ def _keeper_concede_prob(df: pd.DataFrame) -> np.ndarray:
 class OutcomePipeline:
     combined_model: CombinedOutcomeModel
     resolution_table: dict[str, float]
+    dive_table: dict[tuple[str, str], float] | None
     blender: MetaBlender | None
     calibrator: ProbabilityCalibrator
     global_rate: float
@@ -113,6 +114,7 @@ def fit_pipeline(
 
     combined_model = train_combined_model(train_df, C=combo_C, global_rate=global_rate)
     resolution_table = fit_resolution_table(train_df, smoothing=resolution_smoothing)
+    dive_table = fit_dive_resolution_table(train_df, smoothing=resolution_smoothing)
 
     combo_train = predict_combined_proba(combined_model, train_df)
     y_train = train_df["outcome_bin"].to_numpy(dtype=int)
@@ -130,6 +132,7 @@ def fit_pipeline(
     return OutcomePipeline(
         combined_model=combined_model,
         resolution_table=resolution_table,
+        dive_table=dive_table,
         blender=blender,
         calibrator=calibrator,
         global_rate=global_rate,
@@ -140,7 +143,7 @@ def fit_pipeline(
 def predict_pipeline(pipeline: OutcomePipeline, df: pd.DataFrame) -> dict[str, np.ndarray]:
     """Predict every component plus the calibrated headline probability."""
     combo = predict_combined_proba(pipeline.combined_model, df)
-    composed = compose_goal_prob(df, pipeline.resolution_table)
+    composed = compose_goal_prob(df, pipeline.resolution_table, dive_table=pipeline.dive_table)
     keeper = _keeper_concede_prob(df)
     combo_calibrated = pipeline.calibrator.predict(combo)
 

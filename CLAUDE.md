@@ -30,6 +30,17 @@ python pipelines/enrich_players.py
 python pipelines/enrich_players.py --offline      # cache-only, instant (~30s)
 python pipelines/enrich_players.py --skip-fbref   # TM live + FBref from cache
 python pipelines/enrich_players.py --skip-tm      # FBref fetch only
+
+# Run dive enrichment pipeline (Kaggle dive datasets -> keeper dive distributions)
+# Requires: data/kaggle/real_data.xlsx + data/kaggle/WorldCupShootouts.csv
+# Runtime: ~5s. Outputs to outputs/enrichment/.
+PYTHONIOENCODING=utf-8 python pipelines/enrich_dive.py
+
+# Train model artifact (required before starting API)
+PYTHONIOENCODING=utf-8 python pipelines/train.py
+
+# Start API server (http://localhost:8000)
+uvicorn src.api.main:app --reload --port 8000
 ```
 
 All commands run from the project root (`D:\Coding\Soccer`). No test runner or linter is configured yet.
@@ -41,7 +52,9 @@ All commands run from the project root (`D:\Coding\Soccer`). No test runner or l
 - **Steps 1–3 (StatsBomb pipeline):** Complete. Clean dataset at `outputs/statsbomb/`.
 - **Steps 4–7 (EDA, features, baselines, LightGBM model):** Complete. Model beats keeper-shrunk floor.
 - **Phase 2 (enrichment pipeline):** Complete. FBref + Transfermarkt data at `outputs/enrichment/`.
-- **Steps 8–11 (serving layer, frontend):** Not yet built.
+- **Steps 8, 8.5 (enrichment + dive):** Complete. Foot/height features + keeper dive distributions + zone×dive resolution table.
+- **Step 11 (serving layer):** Complete. FastAPI at `src/api/main.py`, model artifact at `outputs/model/pipeline.pkl`.
+- **Steps 9–10 (SHAP cards, React dashboard):** Not yet built.
 
 ### Dependency direction
 
@@ -93,9 +106,15 @@ outputs/enrichment/          # enrichment pipeline outputs (generated, not commi
   penalties_enriched.parquet          ← USE THIS for all modeling
   player_attributes.parquet           # preferred_foot, dob, height per player
   player_career_penalty_stats.parquet # FBref career PK counts per player-season
+  keeper_dive_distributions.json      # P(dive|keeper) for 379 keepers (Dirichlet-shrunk)
+  dive_resolution_table.json          # 18-cell zone×dive resolution table (WC Kaggle data)
   entity_resolution/
     name_map.csv                      # StatsBomb → FBref/TM identity links
     unresolved.csv                    # players needing human review
+
+outputs/model/               # trained model artifact (generated, not committed)
+  pipeline.pkl               # serialized OutcomePipeline (joblib)
+  metadata.json              # training stats: n_penalties, global_rate, dive_table_cells
 ```
 
 **Current dataset stats:** 1,477 penalties · 772 shooters · 379 keepers · 21 competitions · 73.9% conversion rate.
@@ -118,8 +137,10 @@ outputs/enrichment/          # enrichment pipeline outputs (generated, not commi
 | 5 | ✅ Done | Shrinkage utils + as-of feature builder + leakage test | `src/features/` |
 | 6 | ✅ Done | Baselines + evaluation framework | `src/models/baselines.py`, `src/evaluation/` |
 | 7 | ✅ Done | LightGBM outcome model + calibration | `src/models/outcome_lgbm.py`, `src/models/calibration.py` |
-| 8 | **Next** | Retrain model on `penalties_enriched.parquet` with `preferred_foot` + `height_cm` features | `src/features/build.py` |
-| 11 | Todo | FastAPI serving layer | `src/serving/predict.py`, `src/api/main.py` |
+| 8 | ✅ Done | Retrain model on `penalties_enriched.parquet` with `preferred_foot` + `height_cm` features | `src/features/build.py` |
+| 8.5 | ✅ Done | Kaggle dive dataset integration — keeper dive distributions + zone×dive resolution table | `src/ingestion/kaggle_dive.py`, `src/models/dive_prior.py`, `pipelines/enrich_dive.py` |
+| 11 | ✅ Done | FastAPI serving layer — `/health`, `/players/shooters`, `/players/keepers`, `/predict` | `src/serving/predict.py`, `src/api/main.py`, `pipelines/train.py` |
+| 9 | **Next** | SHAP explanation cards | `src/explainability/shap_cards.py` |
 | 10 | Todo | React dashboard | `frontend/` |
 
 ### Evaluation rules

@@ -31,6 +31,16 @@ OUTCOME_FEATURE_COLUMNS = [
     "expected_guess_correct",
     "is_shootout",
     "shootout_kick_index",
+    "shooter_foot_is_right",
+    "shooter_preferred_foot_is_missing",
+    "shooter_height_cm",
+    "keeper_foot_is_right",
+    "keeper_preferred_foot_is_missing",
+    "keeper_height_cm",
+    "keeper_dive_left_prob",
+    "keeper_dive_center_prob",
+    "keeper_dive_right_prob",
+    "keeper_dive_entropy",
 ]
 
 

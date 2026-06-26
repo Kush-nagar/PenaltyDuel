@@ -1,0 +1,22 @@
+{
+  "n_penalties": 1477,
+  "n_shooters": 772,
+  "n_keepers": 379,
+  "global_goal_rate": 0.7393364928909952,
+  "calibration_method": "none",
+  "has_dive_table": true,
+  "dive_table_cells": 18,
+  "dive_table_source": "kaggle_world_cup_shootouts",
+  "feature_names": [
+    "shooter_logodds_offset",
+    "keeper_concede_logodds_offset",
+    "shooter_zone_entropy",
+    "is_shootout",
+    "log1p_shooter_n_pens",
+    "log1p_keeper_n_faced"
+  ],
+  "date_range": {
+    "min": "1974-07-07",
+    "max": "2025-07-27"
+  }
+}

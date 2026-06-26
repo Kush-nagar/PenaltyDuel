@@ -1,5 +1,5 @@
 """
-Assemble the Step 5 leak-safe modeling table.
+Assemble the Step 5 / Step 8.5 leak-safe modeling table.
 """
 
 from __future__ import annotations
@@ -57,12 +57,18 @@ def _default_priors() -> tuple[tuple[float, float], tuple[float, float], dict[st
     return (shooter_alpha, shooter_beta), (keeper_alpha, keeper_beta), zone_prior
 
 
-def build_modeling_table(df: pd.DataFrame) -> pd.DataFrame:
+def build_modeling_table(
+    df: pd.DataFrame,
+    *,
+    keeper_dive_distributions: dict[str, dict[str, float]] | None = None,
+) -> pd.DataFrame:
     """
-    Build v1 Step 5 features from clean penalties.
+    Build Step 5 / Step 8.5 features from enriched penalties.
 
-    Output intentionally keeps identifiers and target columns so downstream
-    splitters/evaluators can join predictions back to source rows.
+    keeper_dive_distributions: optional mapping {keeper_id → {"left": p, ...}}
+        produced by src.models.dive_prior. When provided, adds
+        keeper_dive_{left,center,right}_prob and keeper_dive_entropy columns.
+        When absent, those columns are omitted (zone-only resolution path used).
     """
     features = build_as_of_features(df)
     shooter_prior, keeper_prior, zone_prior = _default_priors()
@@ -133,4 +139,23 @@ def build_modeling_table(df: pd.DataFrame) -> pd.DataFrame:
             features["shooter_n_pens_before"],
         )
     ]
+
+    if "shooter_preferred_foot" in features.columns:
+        features["shooter_foot_is_right"] = (
+            features["shooter_preferred_foot"].fillna("") == "right"
+        ).astype(float)
+    else:
+        features["shooter_foot_is_right"] = 0.0
+
+    if "keeper_preferred_foot" in features.columns:
+        features["keeper_foot_is_right"] = (
+            features["keeper_preferred_foot"].fillna("") == "right"
+        ).astype(float)
+    else:
+        features["keeper_foot_is_right"] = 0.0
+
+    if keeper_dive_distributions is not None:
+        from src.models.dive_prior import attach_dive_features
+        features = attach_dive_features(features, keeper_dive_distributions)
+
     return features

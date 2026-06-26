@@ -1,0 +1,20 @@
+{
+  "low_left|left": 0.6852871754523997,
+  "low_left|center": 0.8870967741935484,
+  "low_left|right": 0.7956989247311829,
+  "low_center|left": 0.8292220113851992,
+  "low_center|center": 0.3440860215053763,
+  "low_center|right": 0.5548387096774194,
+  "low_right|left": 0.9048387096774194,
+  "low_right|center": 0.9096774193548388,
+  "low_right|right": 0.6463133640552996,
+  "high_left|left": 0.43504795117698347,
+  "high_left|center": 0.7360703812316717,
+  "high_left|right": 0.9206989247311829,
+  "high_center|left": 0.6228287841191068,
+  "high_center|center": 0.6193548387096774,
+  "high_center|right": 0.6451612903225806,
+  "high_right|left": 0.9524617996604414,
+  "high_right|center": 0.8269794721407625,
+  "high_right|right": 0.5238709677419355
+}
