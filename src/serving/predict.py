@@ -194,7 +194,7 @@ def search_players(
 
 # ── Matchup prediction ────────────────────────────────────────────────────────
 
-def _build_feature_row(
+def build_feature_row(
     shooter: ShooterProfile,
     keeper: KeeperProfile,
     pipeline,
@@ -267,7 +267,7 @@ def predict_matchup(
 ) -> MatchupPrediction:
     from src.models.training import predict_pipeline
 
-    feature_row = _build_feature_row(shooter, keeper, pipeline)
+    feature_row = build_feature_row(shooter, keeper, pipeline)
     preds = predict_pipeline(pipeline, feature_row)
 
     goal_prob = float(np.clip(preds["combo_calibrated"][0], EPS, 1 - EPS))
