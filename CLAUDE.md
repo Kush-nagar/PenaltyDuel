@@ -52,13 +52,22 @@ All commands run from the project root (`D:\Coding\Soccer`). No test runner or l
 
 ### Current state
 
-- **Steps 1–3 (StatsBomb pipeline):** Complete. Clean dataset at `outputs/statsbomb/`.
-- **Steps 4–7 (EDA, features, baselines, LightGBM model):** Complete. Model beats keeper-shrunk floor.
-- **Phase 2 (enrichment pipeline):** Complete. FBref + Transfermarkt data at `outputs/enrichment/`.
-- **Steps 8, 8.5 (enrichment + dive):** Complete. Foot/height features + keeper dive distributions + zone×dive resolution table.
-- **Step 11 (serving layer):** Complete. FastAPI at `src/api/main.py`, model artifact at `outputs/model/pipeline.pkl`.
-- **Step 9 (SHAP cards):** Complete. `src/explain/shap_wrap.py` + `src/explain/cards.py` + 28 tests in `tests/test_explanation_honesty.py`. `/predict` response includes `shap_card`.
-- **Step 10 (React dashboard):** Complete. Vite + React at `frontend/`. 3 pages: Home/Matchup Builder, Prediction Results, Player Explorer. Retro 16-bit pixel design from Google Stitch. Dev server at `http://localhost:5173`.
+**All planned steps complete. System is end-to-end functional.**
+
+- **Steps 1–3 (StatsBomb pipeline):** Complete. 1,477 penalties · 772 shooters · 379 keepers · 21 competitions at `outputs/statsbomb/`.
+- **Steps 4–7 (EDA, features, baselines, LightGBM model):** Complete. Temporal split, shrinkage, leakage test, model beats keeper-shrunk floor.
+- **Phase 2 (enrichment pipeline):** Complete. FBref + Transfermarkt data at `outputs/enrichment/`. 734 high/medium entity matches. 408 unresolved.
+- **Steps 8, 8.5 (enrichment + dive):** Complete. `preferred_foot` + `height_cm` features (50% coverage) + Dirichlet-shrunk keeper dive distributions (379 keepers) + 18-cell zone×dive resolution table from Kaggle WC data.
+- **Step 11 (serving layer):** Complete. FastAPI at `src/api/main.py`, model artifact at `outputs/model/pipeline.pkl`. Endpoints: `/health`, `/players/shooters`, `/players/keepers`, `/predict`.
+- **Step 9 (SHAP cards):** Complete. `src/explain/shap_wrap.py` + `src/explain/cards.py` + 28 honesty tests in `tests/test_explanation_honesty.py`. `/predict` response includes full `shap_card` (headline, confidence, low-data warning, factors, shooter/keeper summaries).
+- **Step 10 (React dashboard):** Complete. Vite + React at `frontend/`. 3 pages: Home/Matchup Builder, Prediction Results, Player Explorer. Retro 16-bit pixel design. Dev server at `http://localhost:5173`.
+
+### Known issues / gaps
+
+- **Enrichment coverage 50%:** 408 players unresolved — entity resolution fails because StatsBomb stores full legal names (e.g. "Lionel Andrés Messi Cuccittini") while TM/FBref use shortened names. `token_sort_ratio` at threshold 90 can't bridge this. Fix: use `token_set_ratio` (subset matching) + short-name fallback variant.
+- **Dive data thin:** Only 14 Serie A keepers in Kaggle dive set. All other keepers fall back to league/global prior. WC shootout data adds 279 kicks but limited keeper diversity.
+- **Frontend minor bugs:** (1) Matchup builder cards show "? PENALTIES RECORDED" on player selection — shooter profile not propagating to card display. (2) `/predict` nav link with no params crashes Prediction page. (3) 3-panel grid breaks on mobile screens.
+- **No deployment:** App only runs locally. No cloud hosting, no public URL.
 
 ### Dependency direction
 
@@ -133,19 +142,32 @@ outputs/model/               # trained model artifact (generated, not committed)
 - `is_shootout = (period == 5)` — StatsBomb convention, validated at pipeline runtime.
 - `shot_zone` is a 6-bin classification: `{low,high} × {left,center,right}` from the keeper's POV. Boundary constants live in `conf/settings.py`. Raw `(x,y)` coordinates are preserved for re-binning.
 
-### Next build steps
+### Completed build steps
 
-| Step | Status | What to build | Key files |
-|------|--------|--------------|-----------|
+| Step | Status | What was built | Key files |
+|------|--------|---------------|-----------|
+| 1–3 | ✅ Done | StatsBomb ingestion pipeline | `pipelines/build_dataset.py`, `src/ingestion/statsbomb.py` |
 | 4 | ✅ Done | EDA notebook | `notebooks/01_eda.ipynb` |
 | 5 | ✅ Done | Shrinkage utils + as-of feature builder + leakage test | `src/features/` |
 | 6 | ✅ Done | Baselines + evaluation framework | `src/models/baselines.py`, `src/evaluation/` |
 | 7 | ✅ Done | LightGBM outcome model + calibration | `src/models/outcome_lgbm.py`, `src/models/calibration.py` |
-| 8 | ✅ Done | Retrain model on `penalties_enriched.parquet` with `preferred_foot` + `height_cm` features | `src/features/build.py` |
-| 8.5 | ✅ Done | Kaggle dive dataset integration — keeper dive distributions + zone×dive resolution table | `src/ingestion/kaggle_dive.py`, `src/models/dive_prior.py`, `pipelines/enrich_dive.py` |
-| 11 | ✅ Done | FastAPI serving layer — `/health`, `/players/shooters`, `/players/keepers`, `/predict` | `src/serving/predict.py`, `src/api/main.py`, `pipelines/train.py` |
+| Phase 2 | ✅ Done | FBref + Transfermarkt enrichment pipeline | `pipelines/enrich_players.py`, `src/ingestion/fbref.py`, `src/ingestion/transfermarkt.py` |
+| 8 | ✅ Done | Foot/height features + retrain | `src/features/build.py` |
+| 8.5 | ✅ Done | Kaggle dive datasets → keeper dive distributions + resolution table | `src/ingestion/kaggle_dive.py`, `src/models/dive_prior.py`, `pipelines/enrich_dive.py` |
+| 11 | ✅ Done | FastAPI serving layer | `src/serving/predict.py`, `src/api/main.py`, `pipelines/train.py` |
 | 9 | ✅ Done | SHAP explanation cards | `src/explain/shap_wrap.py`, `src/explain/cards.py` |
-| 10 | ✅ Done | React dashboard (Retro 16-bit) | `frontend/` |
+| 10 | ✅ Done | React dashboard (Retro 16-bit pixel design) | `frontend/` |
+
+### Improvement opportunities (priority order)
+
+| Priority | Area | Impact | What to do |
+|----------|------|--------|-----------|
+| 1 | Enrichment coverage | High | Fix entity resolution: `token_set_ratio` + short-name variant for legal-name players. Unlocks foot/height for Messi, Ronaldinho, Neymar, ~350 more players (50% → ~70%+ coverage) |
+| 2 | Frontend bug fixes | Medium | Fix matchup card display bug, `/predict` crash with no params, mobile grid layout |
+| 3 | Dive data expansion | Medium | Source more keeper dive labels (Kaggle PK datasets, manually labeled video). Current: 14 keepers. Target: 100+ |
+| 4 | Deployment | Medium | Deploy API to Render/Railway, frontend to Vercel. Make app publicly shareable |
+| 5 | Model features | Low-Medium | Add height differential (shooter_height - keeper_height), foot × zone interaction, league-level priors |
+| 6 | More StatsBomb data | Low | StatsBomb has more open competitions. Add them to expand 1,477 → 2,000+ penalties |
 
 ### Evaluation rules
 
