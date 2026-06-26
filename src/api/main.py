@@ -178,7 +178,7 @@ def list_shooters(q: str = Query(default="", min_length=0)):
             reverse=True,
         )[:50]
         return [
-            {"id": p.player_id, "name": p.name, "n_penalties": p.n_penalties}
+            {"id": p.player_id, "name": p.name, "n_penalties": p.n_penalties, "conv_rate_shrunk": round(p.conv_rate_shrunk, 4)}
             for p in profiles
         ]
     results = search_players(
@@ -200,7 +200,7 @@ def list_keepers(q: str = Query(default="", min_length=0)):
             reverse=True,
         )[:50]
         return [
-            {"id": p.player_id, "name": p.name, "n_faced": p.n_faced}
+            {"id": p.player_id, "name": p.name, "n_faced": p.n_faced, "save_rate_shrunk": round(p.save_rate_shrunk, 4)}
             for p in profiles
         ]
     results = search_players(

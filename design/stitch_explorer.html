@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Penalty Predictor - Player Explorer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=Bebas+Neue&amp;family=IBM+Plex+Mono:wght@400;600;700&amp;family=VT323&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "accent-red-dark": "#8B0E13",
+                      "on-tertiary-fixed-variant": "#54451c",
+                      "pitch-green": "#1A5C34",
+                      "on-surface-variant": "#e5bdb9",
+                      "on-tertiary-container": "#4c3e15",
+                      "on-tertiary-fixed": "#241a00",
+                      "on-primary-fixed": "#410003",
+                      "text-primary": "#F0EAD6",
+                      "primary-container": "#d12128",
+                      "surface-container-low": "#281716",
+                      "surface-dim": "#1f0f0e",
+                      "surface-tint": "#ffb3ad",
+                      "on-primary-container": "#ffe9e6",
+                      "bg-primary": "#0D1520",
+                      "bg-surface-raised": "#0A2238",
+                      "on-primary-fixed-variant": "#930011",
+                      "surface": "#1f0f0e",
+                      "primary-fixed-dim": "#ffb3ad",
+                      "on-secondary": "#01344f",
+                      "surface-variant": "#43302e",
+                      "primary-fixed": "#ffdad6",
+                      "bg-void": "#070C14",
+                      "on-surface": "#fbdbd8",
+                      "outline": "#ac8885",
+                      "surface-container-high": "#382524",
+                      "on-primary": "#680009",
+                      "background": "#1f0f0e",
+                      "inverse-surface": "#fbdbd8",
+                      "accent-amber": "#F5B731",
+                      "tertiary": "#dac590",
+                      "secondary-fixed-dim": "#a4cbec",
+                      "surface-container-lowest": "#190a09",
+                      "inverse-primary": "#be0d1d",
+                      "border-inner": "#1C3A52",
+                      "surface-container-highest": "#43302e",
+                      "on-error-container": "#ffdad6",
+                      "tertiary-fixed": "#f7e0aa",
+                      "on-secondary-container": "#96bdde",
+                      "tertiary-container": "#bea977",
+                      "on-background": "#fbdbd8",
+                      "on-secondary-fixed-variant": "#214a66",
+                      "text-secondary": "#7A9BB5",
+                      "on-tertiary": "#3c2f07",
+                      "on-error": "#690005",
+                      "outline-variant": "#5c403d",
+                      "on-secondary-fixed": "#001e30",
+                      "surface-container": "#2c1b1a",
+                      "secondary-container": "#244d69",
+                      "goal-green": "#3AB06A",
+                      "tertiary-fixed-dim": "#dac590",
+                      "accent-cream-muted": "#3D2E10",
+                      "error-container": "#93000a",
+                      "error": "#ffb4ab",
+                      "secondary": "#a4cbec",
+                      "surface-bright": "#483432",
+                      "secondary-fixed": "#cae6ff",
+                      "inverse-on-surface": "#3f2c2a",
+                      "primary": "#ffb3ad"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "xxl": "48px",
+                      "base": "8px",
+                      "xs": "4px",
+                      "edge": "24px",
+                      "lg": "24px",
+                      "huge": "64px",
+                      "sm": "8px",
+                      "md": "16px",
+                      "xl": "32px"
+              },
+              "fontFamily": {
+                      "px-hero-mobile": [
+                              "\"Press Start 2P\""
+                      ],
+                      "h1-mobile": [
+                              "Bebas Neue"
+                      ],
+                      "h2": [
+                              "Bebas Neue"
+                      ],
+                      "body": [
+                              "IBM Plex Mono"
+                      ],
+                      "h3": [
+                              "Bebas Neue"
+                      ],
+                      "px-hero": [
+                              "\"Press Start 2P\""
+                      ],
+                      "data-sm": [
+                              "VT323"
+                      ],
+                      "label": [
+                              "IBM Plex Mono"
+                      ],
+                      "data-lg": [
+                              "VT323"
+                      ],
+                      "h1": [
+                              "Bebas Neue"
+                      ]
+              },
+              "fontSize": {
+                      "px-hero-mobile": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "h1-mobile": [
+                              "40px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "h2": [
+                              "40px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.7",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "h3": [
+                              "28px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "px-hero": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "data-sm": [
+                              "32px",
+                              {
+                                      "lineHeight": "1",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label": [
+                              "11px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "letterSpacing": "0.14em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "data-lg": [
+                              "56px",
+                              {
+                                      "lineHeight": "1",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "h1": [
+                              "64px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        /* CRT Scanline Overlay */
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0),
+                rgba(255, 255, 255, 0) 50%,
+                rgba(0, 0, 0, 0.1) 50%,
+                rgba(0, 0, 0, 0.1)
+            );
+            background-size: 100% 4px;
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* Pixel Borders & Corners */
+        .pixel-border {
+            position: relative;
+            box-shadow: 
+                inset 0 0 0 1px #1C3A52, 
+                0 0 0 3px #d12128,
+                4px 4px 0px 0px rgba(0,0,0,1);
+        }
+        
+        .pixel-corner-tl {
+            position: absolute;
+            top: -3px; left: -3px;
+            width: 8px; height: 8px;
+            background-color: #d12128;
+            clip-path: polygon(0 0, 100% 0, 100% 3px, 3px 3px, 3px 100%, 0 100%);
+        }
+        .pixel-corner-tr {
+            position: absolute;
+            top: -3px; right: -3px;
+            width: 8px; height: 8px;
+            background-color: #d12128;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, calc(100% - 3px) 100%, calc(100% - 3px) 3px, 0 3px);
+        }
+        .pixel-corner-bl {
+            position: absolute;
+            bottom: -3px; left: -3px;
+            width: 8px; height: 8px;
+            background-color: #d12128;
+            clip-path: polygon(0 0, 3px 0, 3px calc(100% - 3px), 100% calc(100% - 3px), 100% 100%, 0 100%);
+        }
+        .pixel-corner-br {
+            position: absolute;
+            bottom: -3px; right: -3px;
+            width: 8px; height: 8px;
+            background-color: #d12128;
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 calc(100% - 3px), calc(100% - 3px) calc(100% - 3px), calc(100% - 3px) 0);
+        }
+
+        .text-pixel-shadow {
+            text-shadow: 4px 4px 0px #d12128;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #070C14; 
+            border-left: 2px solid #1C3A52;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d12128; 
+            border: 2px solid #070C14;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #8B0E13; 
+        }
+    </style>
+</head>
+<body class="bg-bg-primary text-text-primary min-h-screen flex flex-col font-body selection:bg-primary-container selection:text-text-primary">
+<div class="scanlines"></div>
+<!-- Top Navigation Container -->
+<nav class="bg-bg-void text-primary font-px-hero text-px-hero docked full-width top-0 border-b-4 border-primary-container flat no shadows flex justify-between items-center w-full px-edge py-md max-w-full z-50">
+<div class="font-px-hero text-px-hero text-primary uppercase flex items-center gap-2">
+<span class="material-symbols-outlined" data-icon="sports_soccer" data-weight="fill" style="font-variation-settings: 'FILL' 1;">sports_soccer</span>
+            PENALTY PREDICTOR
+        </div>
+<div class="hidden md:flex gap-6">
+<a class="text-text-secondary font-body hover:text-primary-container transition-colors duration-100" href="#">LIVE</a>
+<a class="text-text-secondary font-body hover:text-primary-container transition-colors duration-100" href="#">STATS</a>
+<a class="text-primary font-bold border-b-2 border-primary-container pb-1 hover:text-primary-container transition-colors duration-100 Active: scale-95 transition-transform" href="#">LEAGUES</a>
+<a class="text-text-secondary font-body hover:text-primary-container transition-colors duration-100" href="#">HISTORY</a>
+</div>
+<div class="font-label text-label text-text-secondary">
+            StatsBomb + Kaggle
+        </div>
+</nav>
+<!-- Main Content Area with Side Nav layout -->
+<div class="flex flex-1 overflow-hidden relative">
+<!-- Side Navigation -->
+<aside class="hidden md:flex bg-bg-surface-raised text-primary fixed h-full left-0 w-64 border-r-4 border-primary-container shadow-[8px_0px_0px_0px_rgba(139,14,19,1)] flex-col p-md z-40 mt-[72px]"> <!-- mt accounts for top nav -->
+<div class="flex items-center gap-4 mb-xl pb-4 border-b-2 border-border-inner border-dashed">
+<div class="w-12 h-12 bg-bg-void rounded-none border-2 border-primary-container flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover pixelated" data-alt="A pixel art style portrait of a futuristic soccer player with glowing visor and neon accents, set against a dark void background. The aesthetic is heavily influenced by 16-bit retro gaming graphics with deep shadows and vibrant red highlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB84X7OctJ4LA11e3c-2JeBLoRYrVv5cO5S_GpmUWsnfhrtq-gICuI4Tbxh7JiobcrOKDygJR3qhLQChHHxVtYApAR7br8_Ua52t_9hZOOpG4QSHSo5mBanhJe37tqRSzT6KU79uuGGC-h5ddV2YgMP0UHe08ybkX-9V05uqA15ECXyXiBa1uFUISzEdn2YniJB9tWSClfJciwxmRrR335Pkea4XNY0KeJLGgGAU-OYKwCKMXZeF3b1RCVnfIYnmxsSgNbnAYZJECs"/>
+</div>
+<div>
+<div class="font-h3 text-h3 text-text-primary tracking-wider">PRO STRIKER</div>
+<div class="font-label text-label text-primary-container">LVL 99</div>
+</div>
+</div>
+<nav class="flex flex-col gap-2 flex-1">
+<a class="flex items-center gap-3 p-2 text-text-secondary hover:bg-surface-container font-label text-label hover:bg-primary-container hover:text-text-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="home">home</span> Home
+                </a>
+<a class="flex items-center gap-3 p-2 bg-primary-container text-text-primary border-4 border-bg-void shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] font-label text-label hover:bg-primary-container hover:text-text-primary transition-colors Active: translate-x-1" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span> Analysis
+                </a>
+<a class="flex items-center gap-3 p-2 text-text-secondary hover:bg-surface-container font-label text-label hover:bg-primary-container hover:text-text-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="sports_soccer">sports_soccer</span> Live Predictor
+                </a>
+<a class="flex items-center gap-3 p-2 text-text-secondary hover:bg-surface-container font-label text-label hover:bg-primary-container hover:text-text-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="leaderboard">leaderboard</span> Leaderboard
+                </a>
+<a class="flex items-center gap-3 p-2 text-text-secondary hover:bg-surface-container font-label text-label hover:bg-primary-container hover:text-text-primary transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span> Settings
+                </a>
+</nav>
+<button class="mt-auto w-full py-3 bg-primary-container text-text-primary font-label text-label hover:bg-accent-red-dark transition-colors border-2 border-bg-void">
+                NEW PREDICTION
+            </button>
+</aside>
+<!-- Main Canvas -->
+<main class="flex-1 ml-0 md:ml-64 p-4 md:p-edge overflow-y-auto mt-[72px]">
+<header class="mb-xl">
+<h1 class="font-h1 text-h1 md:text-[80px] text-text-primary text-pixel-shadow tracking-widest uppercase m-0 leading-none">PLAYER EXPLORER</h1>
+<div class="h-2 w-full bg-border-inner mt-4 relative">
+<div class="absolute left-0 top-0 h-full w-1/3 bg-primary-container"></div>
+</div>
+</header>
+<!-- Sticky Filter Bar -->
+<div class="sticky top-[72px] z-30 bg-bg-surface-raised p-4 mb-xl border-b-4 border-primary-container shadow-[0_8px_0_0_rgba(0,0,0,0.5)]">
+<div class="flex flex-col xl:flex-row gap-4 items-center justify-between">
+<!-- Search Input -->
+<div class="relative w-full xl:w-1/3">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-text-secondary" data-icon="search">search</span>
+<input class="w-full bg-bg-void border border-border-inner text-text-primary font-body text-body pl-10 pr-4 py-3 focus:outline-none focus:border-primary-container focus:ring-0 rounded-none placeholder-text-secondary" placeholder="ENTER PLAYER_ID OR NAME..." type="text"/>
+</div>
+<!-- Pixel Toggle -->
+<div class="flex bg-bg-void border-2 border-border-inner w-full xl:w-auto">
+<button class="flex-1 xl:flex-none px-6 py-2 bg-primary-container text-text-primary font-label text-label border-r-2 border-border-inner">ALL</button>
+<button class="flex-1 xl:flex-none px-6 py-2 text-text-secondary hover:bg-surface-container font-label text-label border-r-2 border-border-inner transition-colors">SHOOTERS</button>
+<button class="flex-1 xl:flex-none px-6 py-2 text-text-secondary hover:bg-surface-container font-label text-label transition-colors">KEEPERS</button>
+</div>
+<!-- Dropdowns -->
+<div class="flex gap-4 w-full xl:w-auto">
+<select class="flex-1 xl:flex-none bg-bg-void border border-border-inner text-text-primary font-label text-label px-4 py-3 focus:outline-none focus:border-primary-container appearance-none rounded-none">
+<option>ALL LEAGUES</option>
+<option>PREMIER LEAGUE</option>
+<option>LA LIGA</option>
+<option>SERIE A</option>
+</select>
+<select class="flex-1 xl:flex-none bg-bg-void border border-border-inner text-text-primary font-label text-label px-4 py-3 focus:outline-none focus:border-primary-container appearance-none rounded-none">
+<option>SORT: ACCURACY</option>
+<option>SORT: TOTAL TAKEN</option>
+<option>SORT: NAME A-Z</option>
+</select>
+</div>
+</div>
+</div>
+<!-- Grid Layout -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+<!-- Player Card 1 -->
+<article class="bg-bg-surface-raised p-4 pixel-border flex flex-col group">
+<div class="pixel-corner-tl"></div><div class="pixel-corner-tr"></div>
+<div class="pixel-corner-bl"></div><div class="pixel-corner-br"></div>
+<div class="relative mb-4 aspect-square bg-bg-void border-2 border-border-inner overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity opacity-80 group-hover:opacity-100 group-hover:mix-blend-normal transition-all duration-300" data-alt="A gritty, pixelated 16-bit style headshot of a professional soccer player looking determined. The portrait features heavy shadows, CRT scanline artifacts, and is set against a dark void background with a subtle red glow. The overall aesthetic is reminiscent of vintage sports video games." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm-7czasMwN57CDX-fetgmH-rJaEQe0yLW-Ti2OdzG8PY8dato0WgwaK5il9PSVsm_5WmESB8Jeuy1vOJ6IwEgE7ADRlCXw03bBo0RBCrJmQwcI2z8_jyvmR3J1s977rhmcr_V6hMxVo7wpr5VGW8ZgPNb-amDwVMKq4ogh-OlpofeCnXSEAwMBeh-m26lxhIamRYQ4Pac6zAqkhYFqFWviWRUf7pF6hRDzBAw4JYNterMX1Rwzthu3y3Y4EvjONivNxtVbko3FA0"/>
+<div class="absolute top-2 right-2 bg-primary-container px-2 py-1 font-label text-label text-text-primary border border-bg-void">ST</div>
+</div>
+<h2 class="font-h3 text-h3 text-text-primary mb-1 uppercase truncate">Ivan Toney</h2>
+<div class="font-label text-label text-text-secondary mb-4">Premier League</div>
+<div class="grid grid-cols-2 gap-2 mb-6 bg-bg-void p-2 border border-border-inner">
+<div class="flex flex-col items-center">
+<span class="font-label text-label text-text-secondary mb-1">CONVERSION</span>
+<span class="font-data-sm text-data-sm text-goal-green">93%</span>
+</div>
+<div class="flex flex-col items-center border-l border-border-inner">
+<span class="font-label text-label text-text-secondary mb-1">TAKEN</span>
+<span class="font-data-sm text-data-sm text-text-primary">29</span>
+</div>
+</div>
+<button class="mt-auto w-full py-3 bg-primary-container text-text-primary font-label text-label hover:bg-accent-red-dark transition-colors border-2 border-bg-void flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]" data-icon="sports_esports">sports_esports</span> PREDICT VS THEM
+                    </button>
+</article>
+<!-- Player Card 2 -->
+<article class="bg-bg-surface-raised p-4 pixel-border flex flex-col group">
+<div class="pixel-corner-tl"></div><div class="pixel-corner-tr"></div>
+<div class="pixel-corner-bl"></div><div class="pixel-corner-br"></div>
+<div class="relative mb-4 aspect-square bg-bg-void border-2 border-border-inner overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-luminosity opacity-80 group-hover:opacity-100 group-hover:mix-blend-normal transition-all duration-300" data-alt="A dramatic 16-bit pixel art portrait of a soccer goalkeeper in a vibrant jersey. The image has a retro digital feel with hard pixel edges, deep navy shadows, and a stark, high-contrast lighting setup characteristic of 90s console games. Background is pitch black." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBezgGPqAyGOHK0cs_A2aw6GL7xcrH_R7f7z6CrKxC37vff_TabnwI0Kd-Esg07xfV2L63P-EB46kwJDLO5O-thChzg4d39ITwPfItzLcoER_PI6jSGRzrJCZcVK2vH1Wp0tgjOUXe0vLkJB1mOehgyaRnYaI9QHffM4cPFg_W6XU1Hza2YuR6fcrKyAza0yFB5UZ8ap8apfgcsTa-AuEddHOOqDgNdszLUl1VRqlUoDUKWnog11wGZ_xnIDMNLYbQOhNgv8eLgPYo"/>
+<div class="absolute top-2 right-2 bg-surface-container-highest px-2 py-1 font-label text-label text-text-primary border border-bg-void">GK</div>
+</div>
+<h2 class="font-h3 text-h3 text-text-primary mb-1 uppercase truncate">Emiliano Martínez</h2>
+<div class="font-label text-label text-text-secondary mb-4">Premier League</div>
+<div class="grid grid-cols-2 gap-2 mb-6 bg-bg-void p-2 border border-border-inner">
+<div class="flex flex-col items-center">
+<span class="font-label text-label text-text-secondary mb-1">SAVE RATE</span>
+<span class="font-data-sm text-data-sm text-accent-amber">31%</span>
+</div>
+<div class="flex flex-col items-center border-l border-border-inner">
+<span class="font-label text-label text-text-secondary mb-1">FACED</span>
+<span class="font-data-sm text-data-sm text-text-primary">42</span>
+</div>
+</div>
+<button class="mt-auto w-full py-3 bg-primary-container text-text-primary font-label text-label hover:bg-accent-red-dark transition-colors border-2 border-bg-void flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]" data-icon="sports_esports">sports_esports</span> PREDICT VS THEM
+                    </button>
+</article>
+<!-- Player Card 3 (Skeleton Loading State Example) -->
+<article class="bg-bg-surface-raised p-4 pixel-border flex flex-col animate-pulse">
+<div class="pixel-corner-tl"></div><div class="pixel-corner-tr"></div>
+<div class="pixel-corner-bl"></div><div class="pixel-corner-br"></div>
+<div class="relative mb-4 aspect-square bg-bg-void border-2 border-border-inner overflow-hidden">
+<div class="w-full h-full bg-surface-container-high"></div>
+</div>
+<div class="h-8 bg-surface-container-high w-3/4 mb-2"></div>
+<div class="h-4 bg-surface-container-high w-1/2 mb-4"></div>
+<div class="grid grid-cols-2 gap-2 mb-6 bg-bg-void p-2 border border-border-inner h-[60px]">
+<div class="bg-surface-container-high h-full"></div>
+<div class="bg-surface-container-high h-full"></div>
+</div>
+<div class="h-10 bg-surface-container-high w-full mt-auto"></div>
+</article>
+</div>
+</main>
+</div>
+</body></html>

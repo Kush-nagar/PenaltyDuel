@@ -41,6 +41,9 @@ PYTHONIOENCODING=utf-8 python pipelines/train.py
 
 # Start API server (http://localhost:8000)
 uvicorn src.api.main:app --reload --port 8000
+
+# Start React frontend (http://localhost:5173) — run from frontend/
+cd frontend && npm run dev
 ```
 
 All commands run from the project root (`D:\Coding\Soccer`). No test runner or linter is configured yet.
@@ -54,7 +57,8 @@ All commands run from the project root (`D:\Coding\Soccer`). No test runner or l
 - **Phase 2 (enrichment pipeline):** Complete. FBref + Transfermarkt data at `outputs/enrichment/`.
 - **Steps 8, 8.5 (enrichment + dive):** Complete. Foot/height features + keeper dive distributions + zone×dive resolution table.
 - **Step 11 (serving layer):** Complete. FastAPI at `src/api/main.py`, model artifact at `outputs/model/pipeline.pkl`.
-- **Steps 9–10 (SHAP cards, React dashboard):** Not yet built.
+- **Step 9 (SHAP cards):** Complete. `src/explain/shap_wrap.py` + `src/explain/cards.py` + 28 tests in `tests/test_explanation_honesty.py`. `/predict` response includes `shap_card`.
+- **Step 10 (React dashboard):** Complete. Vite + React at `frontend/`. 3 pages: Home/Matchup Builder, Prediction Results, Player Explorer. Retro 16-bit pixel design from Google Stitch. Dev server at `http://localhost:5173`.
 
 ### Dependency direction
 
@@ -140,8 +144,8 @@ outputs/model/               # trained model artifact (generated, not committed)
 | 8 | ✅ Done | Retrain model on `penalties_enriched.parquet` with `preferred_foot` + `height_cm` features | `src/features/build.py` |
 | 8.5 | ✅ Done | Kaggle dive dataset integration — keeper dive distributions + zone×dive resolution table | `src/ingestion/kaggle_dive.py`, `src/models/dive_prior.py`, `pipelines/enrich_dive.py` |
 | 11 | ✅ Done | FastAPI serving layer — `/health`, `/players/shooters`, `/players/keepers`, `/predict` | `src/serving/predict.py`, `src/api/main.py`, `pipelines/train.py` |
-| 9 | **Next** | SHAP explanation cards | `src/explainability/shap_cards.py` |
-| 10 | Todo | React dashboard | `frontend/` |
+| 9 | ✅ Done | SHAP explanation cards | `src/explain/shap_wrap.py`, `src/explain/cards.py` |
+| 10 | ✅ Done | React dashboard (Retro 16-bit) | `frontend/` |
 
 ### Evaluation rules
 
